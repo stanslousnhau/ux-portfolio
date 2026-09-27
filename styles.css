@@ -96,3 +96,22 @@ figure,.wide-figure,.split figure,.gallery.two figure{max-width:560px}
 @media(max-width:1100px){.process-board{grid-template-columns:1fr 1fr;min-height:auto}.process-line{display:none}.mockup-stage{min-height:280px}.device-card{width:40%}}
 @media(max-width:960px){.process-board{max-width:none}.mockup-stage{max-width:none;margin-left:0}.device-card.back{right:24%;top:17%}.device-card.front{right:8%;top:10%}}
 @media(max-width:600px){.process-board{grid-template-columns:1fr;gap:12px;padding:18px}.process-step{min-height:auto}.mockup-stage{min-height:250px}.device-card{width:43%;min-width:120px;border-radius:22px}.device-card.back{right:24%}.device-card.front{right:8%}.hero::after{width:78%;height:54%;right:-18%;bottom:10%}}
+
+
+/* V9 hero cleanup: remove wave visuals, use supplied transparent portrait */
+.hero::before,.hero::after{display:none!important;content:none!important}
+.hero-visual{min-height:560px}
+.hero-portrait{width:min(100%,560px)}
+.hero-portrait img{width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 24px 42px rgba(0,0,0,.24))}
+
+/* V9 homepage thumbnails */
+.process-board.compact-grid{display:grid;grid-template-columns:1fr 1fr!important;gap:12px;align-content:center;min-height:320px;padding:22px;max-width:520px}
+.process-board.compact-grid .process-line{display:none!important}
+.process-board.compact-grid .process-step{min-height:124px;padding:16px 14px}
+.mockup-panel{position:relative;width:100%;max-width:520px;min-height:320px;border-radius:28px;border:1px solid rgba(255,255,255,.08);overflow:hidden;box-shadow:0 18px 48px rgba(0,0,0,.22);display:grid;place-items:center;padding:18px}
+.mockup-panel.rise-stage{background:radial-gradient(circle at 30% 30%,rgba(63,120,255,.18),transparent 38%),linear-gradient(180deg,#07101d,#0a0c13)}
+.mockup-panel.velocity-stage{background:radial-gradient(circle at 70% 18%,rgba(255,120,0,.18),transparent 38%),linear-gradient(180deg,#130d0a,#090909)}
+.mockup-art{width:100%;max-width:430px;height:auto;object-fit:contain;display:block;filter:drop-shadow(0 22px 38px rgba(0,0,0,.36))}
+.single-art{padding-inline:14px}
+@media(max-width:1100px){.process-board.compact-grid{grid-template-columns:1fr 1fr!important}.mockup-panel{min-height:280px}.mockup-art{max-width:380px}}
+@media(max-width:600px){.process-board.compact-grid{grid-template-columns:1fr!important;padding:18px}.mockup-panel{min-height:240px;padding:14px}.mockup-art{max-width:300px}}

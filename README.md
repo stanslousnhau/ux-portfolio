@@ -26,3 +26,6 @@ Updated in V6: removed the large top-right hero image block from all three case 
 
 
 Updated in V8: homepage cards now show process-style Enterprise API visuals and mockup-style RISE/Velocity visuals, hero portrait uses the cut-out version, hero has an abstract wave background, and case study images are capped smaller.
+
+
+Updated in V9: removed hero wave visuals, replaced the hero portrait with the supplied transparent PNG, swapped RISE and Velocity homepage thumbnails for the supplied mockup pair images, and converted the Enterprise API thumbnail into a 2x2 four-step process board so all steps stay visible.
