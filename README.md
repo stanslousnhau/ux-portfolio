@@ -29,3 +29,6 @@ Updated in V8: homepage cards now show process-style Enterprise API visuals and 
 
 
 Updated in V9: removed hero wave visuals, replaced the hero portrait with the supplied transparent PNG, swapped RISE and Velocity homepage thumbnails for the supplied mockup pair images, and converted the Enterprise API thumbnail into a 2x2 four-step process board so all steps stay visible.
+
+
+Updated in V10: centered homepage mockup visuals and added consistent left/right padding on tablet and mobile so inner thumbnail panels no longer touch the outer cards.
