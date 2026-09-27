@@ -23,3 +23,6 @@ Updated in V5: `assets/stan-portrait.png` now uses the exact uploaded hero portr
 
 
 Updated in V6: removed the large top-right hero image block from all three case study pages for a cleaner opening section.
+
+
+Updated in V8: homepage cards now show process-style Enterprise API visuals and mockup-style RISE/Velocity visuals, hero portrait uses the cut-out version, hero has an abstract wave background, and case study images are capped smaller.
