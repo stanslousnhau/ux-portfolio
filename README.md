@@ -32,3 +32,6 @@ Updated in V9: removed hero wave visuals, replaced the hero portrait with the su
 
 
 Updated in V10: centered homepage mockup visuals and added consistent left/right padding on tablet and mobile so inner thumbnail panels no longer touch the outer cards.
+
+
+Light Mode Preview: this version keeps the same V10 layout, spacing, mobile fixes, animations, portrait and project thumbnails, but changes the site to a light visual system. The main project cards remain dark/cinematic so the mockups retain contrast.
