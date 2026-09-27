@@ -14,3 +14,12 @@ The homepage still references `assets/stan-portrait.png`, exactly like your curr
 
 ## GitHub Pages
 Keep Pages set to `main` branch and `/(root)`. GitHub Pages may take a few minutes to deploy after commit.
+
+
+Note: This package includes a placeholder/fallback `assets/stan-portrait.png` copied from `stan-about.jpg` so the hero image will not break. If you want your exact original hero portrait, replace `assets/stan-portrait.png` with that original image file.
+
+
+Updated in V5: `assets/stan-portrait.png` now uses the exact uploaded hero portrait, and `assets/Stanslous_Nhau_CV.pdf` has been replaced with the latest uploaded CV.
+
+
+Updated in V6: removed the large top-right hero image block from all three case study pages for a cleaner opening section.

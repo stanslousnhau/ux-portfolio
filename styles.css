@@ -35,3 +35,26 @@
 @keyframes skillGlow{0%,100%{transform:scale(.92);opacity:.45}50%{transform:scale(1.08);opacity:.85}}
 
 @media(max-width:600px){.capability-carousel{padding-top:4px!important}.skills{gap:14px!important}}
+
+
+/* V4 homepage card fix */
+.project-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,520px);align-items:center;gap:18px;min-height:auto;padding:0;background:linear-gradient(180deg,rgba(9,10,16,.98),rgba(6,8,13,.98));border:1px solid rgba(255,255,255,.08);box-shadow:0 18px 50px rgba(0,0,0,.22)}
+.project-feature .project-overlay{display:none!important}
+.project-feature .project-copy{position:relative;z-index:2;display:grid;grid-template-columns:80px minmax(0,1fr);gap:20px;align-content:center;min-height:auto;padding:44px 26px 44px 44px}
+.project-feature .project-media{position:relative!important;inset:auto!important;height:100%;padding:26px 26px 26px 0;display:grid;place-items:center;order:2}
+.project-feature .project-shot-wrap{width:100%;max-width:520px;margin-left:auto;padding:18px;border-radius:28px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));box-shadow:0 18px 48px rgba(0,0,0,.22)}
+.project-feature .api-shot{background:linear-gradient(180deg,rgba(137,118,255,.12),rgba(255,255,255,.03))}
+.project-feature .rise-shot{background:linear-gradient(180deg,rgba(73,115,255,.14),rgba(255,255,255,.03))}
+.project-feature .velocity-shot{background:linear-gradient(180deg,rgba(255,130,44,.16),rgba(255,255,255,.03))}
+.project-feature .project-shot{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top center;border-radius:20px;border:1px solid rgba(255,255,255,.06);background:#0a0c12}
+.project-feature:hover .project-shot{transform:translateY(-4px) scale(1.01)}
+.project-feature .project-card h3,.project-feature h3{margin-right:10px}
+@media(max-width:960px){.project-feature{grid-template-columns:1fr}.project-feature .project-copy{padding:34px 26px 8px}.project-feature .project-media{padding:0 26px 26px}.project-feature .project-shot-wrap{margin-left:0;max-width:none}}
+@media(max-width:600px){.project-feature .project-copy{grid-template-columns:1fr;padding:26px 22px 0}.project-feature .project-number{padding-top:0}.project-feature .project-media{padding:0 22px 22px}.project-feature .project-shot{aspect-ratio:4/3}}
+
+
+/* V6 case study hero cleanup */
+.case-hero-grid{grid-template-columns:minmax(0,1fr)!important}
+.case-hero-art{display:none!important}
+.case-hero .reveal:first-child{max-width:980px}
+.case-intro{max-width:840px}
