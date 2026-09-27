@@ -35,3 +35,6 @@ Updated in V10: centered homepage mockup visuals and added consistent left/right
 
 
 Light Mode Preview: this version keeps the same V10 layout, spacing, mobile fixes, animations, portrait and project thumbnails, but changes the site to a light visual system. The main project cards remain dark/cinematic so the mockups retain contrast.
+
+
+V12: added cache-busting with styles.css?v=12 on all pages and enhanced About skill cards with a purple/blue gradient border, soft glow, and hover lift.
