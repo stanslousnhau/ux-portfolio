@@ -379,3 +379,91 @@ body:before{background:radial-gradient(circle at 18% -8%,rgba(111,92,255,.10),tr
   50%{opacity:.92;filter:drop-shadow(0 0 7px rgba(123,97,255,.16))}
 }
 @media(prefers-reduced-motion:reduce){.skill::before{animation:none!important}}
+
+
+/* V13 visual emphasis: quantitative cards + thinking diagram */
+.stats-edge-grid article{
+  position:relative;
+  isolation:isolate;
+  border:1px solid transparent!important;
+  background:
+    linear-gradient(#fff,#fff) padding-box,
+    linear-gradient(135deg,#8b78ff 0%,#b05cff 45%,#5b79ff 100%) border-box!important;
+  box-shadow:0 16px 42px rgba(80,70,180,.10),0 0 0 1px rgba(111,92,255,.04)!important;
+  transition:transform .28s ease,box-shadow .28s ease;
+}
+.stats-edge-grid article::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  background:radial-gradient(circle at 12% 0%,rgba(139,120,255,.09),transparent 38%);
+  pointer-events:none;
+  z-index:-1;
+}
+.stats-edge-grid article:hover{
+  transform:translateY(-5px);
+  box-shadow:0 22px 52px rgba(80,70,180,.16),0 0 0 1px rgba(111,92,255,.08)!important;
+}
+.stats-edge-grid article>span{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:34px;height:34px;padding:0 10px;border-radius:11px;
+  background:linear-gradient(135deg,rgba(139,120,255,.13),rgba(91,121,255,.08));
+  border:1px solid rgba(111,92,255,.22);
+}
+
+.thinking-orbit{
+  position:relative;
+  border-radius:32px;
+  background:radial-gradient(circle at 50% 50%,rgba(111,92,255,.055),transparent 58%);
+}
+.orbit-node{
+  border:1px solid transparent!important;
+  background:
+    linear-gradient(#fff,#fff) padding-box,
+    linear-gradient(135deg,#8b78ff,#b05cff,#5b79ff) border-box!important;
+  box-shadow:0 12px 30px rgba(80,70,180,.12)!important;
+  font-weight:600;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.orbit-node:hover{
+  transform:translateY(-3px) scale(1.03);
+  box-shadow:0 16px 36px rgba(80,70,180,.18)!important;
+}
+.orbit-center{
+  box-shadow:0 18px 48px rgba(111,92,255,.28),0 0 0 8px rgba(111,92,255,.055)!important;
+}
+
+/* Give the thinking diagram safe breathing room on mobile */
+@media(max-width:900px){
+  .thinking-layout{gap:34px!important}
+  .thinking-orbit{
+    width:calc(100% - 32px)!important;
+    max-width:520px;
+    height:430px;
+    margin:0 auto!important;
+    transform:none!important;
+  }
+  .thinking-orbit:before{width:min(78vw,390px)!important;height:min(78vw,390px)!important}
+  .thinking-orbit:after{width:min(54vw,270px)!important;height:min(54vw,270px)!important}
+  .n1{top:2%;left:50%!important;transform:translateX(-50%)}
+  .n2{right:0!important;top:47%}
+  .n3{bottom:2%;left:50%!important;transform:translateX(-50%)}
+  .n4{left:0!important;top:47%}
+}
+@media(max-width:600px){
+  .thinking-section .wrap{width:min(calc(100% - 36px),var(--max))!important}
+  .thinking-orbit{
+    width:100%!important;
+    max-width:100%;
+    height:360px;
+    margin-inline:auto!important;
+    overflow:visible;
+  }
+  .thinking-orbit:before{width:min(76vw,310px)!important;height:min(76vw,310px)!important}
+  .thinking-orbit:after{width:min(52vw,215px)!important;height:min(52vw,215px)!important}
+  .orbit-center{width:132px;height:132px;font-size:1.08rem}
+  .orbit-node{padding:9px 13px;font-size:.76rem}
+  .n2{right:2px!important}
+  .n4{left:2px!important}
+}

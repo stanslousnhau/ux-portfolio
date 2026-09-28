@@ -38,3 +38,6 @@ Light Mode Preview: this version keeps the same V10 layout, spacing, mobile fixe
 
 
 V12: added cache-busting with styles.css?v=12 on all pages and enhanced About skill cards with a purple/blue gradient border, soft glow, and hover lift.
+
+
+V13: added purple gradient emphasis to the quantitative thinking cards and thinking-diagram nodes, plus mobile-safe horizontal padding for the thinking diagram. CSS cache version updated to v13.
