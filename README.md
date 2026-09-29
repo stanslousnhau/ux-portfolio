@@ -41,3 +41,6 @@ V12: added cache-busting with styles.css?v=12 on all pages and enhanced About sk
 
 
 V13: added purple gradient emphasis to the quantitative thinking cards and thinking-diagram nodes, plus mobile-safe horizontal padding for the thinking diagram. CSS cache version updated to v13.
+
+
+V14: removed the Enterprise API homepage process visual and replaced it with a compact text-only card with more context about the user's role, methods and strategic contribution. Updated stylesheet cache key to v14.
