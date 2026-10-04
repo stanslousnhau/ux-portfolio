@@ -464,3 +464,26 @@ html{color-scheme:dark}
 
 /* V18: location label has no decorative line on any breakpoint */
 .hero-location::before,.hero-location::after{content:none!important;display:none!important;width:0!important;height:0!important}
+
+/* V19 recruiter edit: reduce visual and content clutter */
+#work .project-card{min-height:390px!important}
+#work .project-card h3{font-size:clamp(1.8rem,3vw,2.8rem)!important;line-height:1.04!important}
+#work .project-card p{max-width:46rem;font-size:.94rem!important;line-height:1.58!important}
+#work .tags{gap:8px!important;margin-bottom:12px!important}
+#work .tags span{font-size:.7rem!important;padding:7px 10px!important}
+#work .project-copy{padding:clamp(24px,4vw,46px)!important}
+#work .project-media{overflow:hidden}
+#about .skills{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:14px!important;margin-top:26px!important}
+#about .skill{min-height:0!important;padding:20px!important}
+#about .skill::before{animation:none!important;opacity:.28!important}
+#about .skill::after{display:none!important}
+#about .skill h3{margin:8px 0 6px!important}
+#about .skill p{margin:0!important;font-size:.86rem!important;line-height:1.45!important}
+#about .about-copy>p{max-width:56rem}
+.case-section{padding-block:clamp(62px,7vw,96px)!important}
+.case-section .case-lead{max-width:820px}
+.case-section .wide-figure{margin-top:38px!important}
+.case-section .gallery{gap:18px!important}
+.deck-shot{max-height:720px;object-fit:contain}
+@media(max-width:900px){#work .project-card{min-height:430px!important}#about .skills{grid-template-columns:1fr!important}}
+@media(max-width:600px){#work .project-card{min-height:440px!important}#work .project-copy{padding:22px!important}#work .project-card h3{font-size:1.8rem!important}.case-section{padding-block:52px!important}}
