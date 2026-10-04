@@ -446,8 +446,7 @@ html{color-scheme:dark}
 .hero-copy{max-width:680px}
 .availability-pill{display:inline-flex;align-items:center;gap:9px;width:max-content;max-width:100%;padding:8px 12px;border:1px solid rgba(74,222,128,.22);border-radius:999px;background:rgba(34,197,94,.075);color:#d9fbe5;font-size:.76rem;font-weight:700;letter-spacing:.01em;margin-bottom:22px}
 .availability-dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,.10),0 0 14px rgba(74,222,128,.38)}
-.hero-location{display:flex;align-items:center;gap:8px;color:#9397a2;font-size:.78rem;font-weight:650;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
-.hero-location::before{content:"";width:18px;height:1px;background:#696d78}
+.hero-location{display:block;color:#9397a2;font-size:.78rem;font-weight:650;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
 .hero h1{font-size:clamp(3.3rem,6.2vw,6rem)!important;line-height:.94!important;letter-spacing:-.065em!important;margin:0 0 14px!important;max-width:760px!important}
 .hero-role{font-size:clamp(1.1rem,1.8vw,1.45rem)!important;line-height:1.25!important;color:#f4f4f6!important;font-weight:700!important;margin:0 0 18px!important}
 .hero-method{max-width:590px!important;color:#a7aab3!important;font-size:1rem!important;line-height:1.72!important;margin:0!important}
@@ -462,3 +461,6 @@ html{color-scheme:dark}
 /* V17 hero refinements */
 .hero-location::before{content:none!important;display:none!important}
 .hero-location{gap:0!important}
+
+/* V18: location label has no decorative line on any breakpoint */
+.hero-location::before,.hero-location::after{content:none!important;display:none!important;width:0!important;height:0!important}
