@@ -866,3 +866,68 @@ a:focus-visible,button:focus-visible{
 }
 /* About section: remove the four capability blocks entirely */
 .about-copy .skills { display: none !important; }
+
+
+/* V31 FIX: hard override all gradient-border layers on homepage project cards */
+#work .project-card,
+#work .project-card.project-feature,
+#work .project-card.enterprise-text-card {
+  border: 2px solid #000 !important;
+  border-color: #000 !important;
+  border-image: none !important;
+  background: #fff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+#work .project-card::before,
+#work .project-card::after,
+#work .project-card.project-feature::before,
+#work .project-card.project-feature::after,
+#work .project-card.enterprise-text-card::before,
+#work .project-card.enterprise-text-card::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+#work .project-card:hover,
+#work .project-card.project-feature:hover,
+#work .project-card.enterprise-text-card:hover {
+  border: 2px solid #000 !important;
+  border-color: #000 !important;
+  border-image: none !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08) !important;
+}
+
+/* V33: keep the hero portrait border visible over the entire image */
+.hero-portrait {
+  position: relative !important;
+  isolation: isolate !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  border: 1.5px solid #d7d9df !important;
+  border-radius: 50% !important;
+  background: #f4f4f6 !important;
+}
+.hero-portrait img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  border-radius: inherit !important;
+}
+.hero-portrait::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 5 !important;
+  border: 1.5px solid #d7d9df !important;
+  border-radius: inherit !important;
+  pointer-events: none !important;
+  box-sizing: border-box !important;
+}

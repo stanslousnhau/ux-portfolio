@@ -78,3 +78,9 @@ V28 case-study improvements: added explicit evidence-to-decision examples to Ent
 - Replaced gradient borders on homepage project cards with solid black borders.
 - Removed the four capability/skill blocks from the About Me section while retaining the biography text and photo.
 - Updated the stylesheet cache-buster to V30.
+
+
+V31 fix: force homepage project-card borders to solid black and remove gradient border/background layers and pseudo-element accents. Stylesheet cache-buster updated to v31.
+
+
+V33 update: Added the stan. SVG favicon across all HTML pages so the brand mark appears in the browser tab and beside the site title where supported.
