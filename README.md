@@ -47,3 +47,9 @@ V14: removed the Enterprise API homepage process visual and replaced it with a c
 
 
 V21: recruiter-focused refinements: homepage project cards now show role and project status; the abstract systems-thinking diagram is replaced with an anonymised research-to-recommendation example; the About section explicitly includes UX research class facilitation; focus-visible keyboard styles were added; and the latest revised one-page CV replaces the bundled download. The previous removal of “My Quantitative Edge” is preserved.
+
+
+V22: mobile project mockup images now use the full available card width for easier viewing; case-study pages have improved small-screen typography, full-width deck images, cleaner single-column galleries, and more compact hero layouts.
+
+
+V23 update: removed the homepage “How I think” section, restored the original bundled CV from the source website archive, removed the blue method chips from the Enterprise API card, and increased role/status contrast and spacing on all project cards.

@@ -607,3 +607,79 @@ a:focus-visible,button:focus-visible{
   .systems-example{padding:14px;border-radius:22px}
   .systems-step{padding:16px}
 }
+
+/* V22 — make project mockups genuinely legible on phones and improve case-study media */
+@media(max-width:600px){
+  #work .project-feature:not(.enterprise-text-card) .project-media{
+    padding:0 12px 16px!important;
+    background:#f5f7fb!important;
+  }
+  #work .project-feature:not(.enterprise-text-card) .mockup-panel{
+    width:100%!important;
+    min-height:0!important;
+    aspect-ratio: 1.32 / 1!important;
+    padding:4px!important;
+    border-radius:16px!important;
+    overflow:hidden!important;
+  }
+  #work .project-feature:not(.enterprise-text-card) .mockup-art{
+    display:block!important;
+    width:100%!important;
+    max-width:none!important;
+    max-height:none!important;
+    height:auto!important;
+    object-fit:contain!important;
+    object-position:center!important;
+    margin:0 auto!important;
+  }
+  .case-hero{padding:42px 0 48px!important;min-height:0!important}
+  .case-hero-grid{gap:28px!important}
+  .case-hero h1{font-size:clamp(2.6rem,12vw,3.6rem)!important;line-height:.98!important;overflow-wrap:anywhere}
+  .case-hero-art{min-height:280px!important;height:280px!important;border-radius:18px!important}
+  .case-meta{gap:8px 16px!important}
+  .case-meta b{font-size:.82rem!important}
+  .case-section{padding:52px 0!important}
+  .case-lead{margin-bottom:28px!important}
+  .case-lead h2,.split h2{font-size:clamp(1.9rem,8vw,2.6rem)!important}
+  .split{gap:28px!important}
+  .split figure,.wide-figure,.gallery.two figure{width:100%!important;max-width:none!important}
+  .deck-shot{width:100%!important;max-width:none!important;height:auto!important;border-radius:12px!important}
+  .gallery.two{grid-template-columns:1fr!important;gap:22px!important}
+  .three-up,.four-up,.insight-grid,.implication-grid,.archetypes,.decision-grid{grid-template-columns:1fr!important}
+  .research-stats{grid-template-columns:1fr 1fr!important}
+  .case-download{padding:24px!important;gap:16px!important;margin-top:38px!important}
+  .case-download .btn{width:100%;text-align:center}
+}
+@media(min-width:601px) and (max-width:960px){
+  #work .project-feature:not(.enterprise-text-card) .mockup-art{width:100%!important;max-width:100%!important;height:auto!important}
+  .case-hero{min-height:0!important;padding:60px 0!important}
+  .case-hero-art{min-height:360px!important}
+  .split{gap:36px!important}
+  .deck-shot{max-width:100%!important}
+}
+
+
+/* V23: stronger project-card hierarchy and readable role/status metadata */
+#work .project-meta{
+  display:flex!important; flex-wrap:wrap; gap:12px 24px!important;
+  margin:18px 0 20px!important; padding:14px 16px!important;
+  border:1px solid rgba(255,255,255,.18)!important;
+  border-radius:12px!important; background:rgba(255,255,255,.065)!important;
+  color:#f4f6fb!important; font-size:.86rem!important; line-height:1.55!important;
+}
+#work .project-meta span{flex:1 1 180px!important; min-width:0!important; color:#f4f6fb!important}
+#work .project-meta b{display:block!important; margin-bottom:4px!important;
+  color:#ffffff!important; font-size:.7rem!important; font-weight:800!important;
+  letter-spacing:.08em!important; text-transform:uppercase!important}
+#work .project-card{cursor:pointer}
+#work .project-card h3{line-height:1.08!important}
+#work .project-card .text-link{display:inline-block; margin-top:8px; color:#ffffff!important; text-decoration:underline; text-decoration-color:rgba(255,255,255,.45); text-underline-offset:4px}
+#work .enterprise-text-card .project-meta{background:#f0f4fb!important; border-color:#cbd5e5!important; color:#17243a!important}
+#work .enterprise-text-card .project-meta span{color:#17243a!important}
+#work .enterprise-text-card .project-meta b{color:#253c60!important}
+@media(max-width:600px){
+  #work .project-meta{padding:12px!important; gap:12px!important; margin:16px 0!important; font-size:.82rem!important}
+  #work .project-meta span{flex:1 1 100%!important}
+  #work .project-card h3{font-size:clamp(1.8rem,8vw,2.25rem)!important}
+  #work .enterprise-text-card .project-copy{padding:26px 22px!important}
+}
