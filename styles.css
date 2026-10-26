@@ -529,3 +529,28 @@ body:before,.cursor-glow,.portrait-orbit{display:none!important}
   .hero-method{margin-top:0!important}
   .cta-row{margin-top:20px!important}
 }
+
+/* V21: fix desktop hero spacing, case-study contrast, and mobile project imagery */
+@media (min-width: 901px){
+  .hero{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;gap:0!important;min-height:0!important;padding-top:36px!important;padding-bottom:56px!important}
+  .hero-visual{order:0!important;width:58px!important;height:58px!important;min-height:0!important;margin:0 0 12px!important;padding:0!important;display:block!important}
+  .hero-portrait{width:58px!important;height:58px!important;min-height:0!important;margin:0!important;border-radius:50%!important;overflow:hidden!important}
+  .hero-portrait img{width:58px!important;height:58px!important;object-fit:cover!important;object-position:center top!important}
+  .hero-copy{order:1!important;width:100%!important;max-width:850px!important;margin:0!important;padding:0!important}
+}
+/* Keep project mockups visible and unobscured on phones. */
+@media(max-width:900px){
+  #work .project-feature:not(.enterprise-text-card){display:grid!important;grid-template-columns:minmax(0,1fr)!important;min-height:0!important;overflow:hidden!important}
+  #work .project-feature:not(.enterprise-text-card) .project-copy{order:1!important;min-height:0!important;padding:24px 22px 10px!important;background:#fff!important}
+  #work .project-feature:not(.enterprise-text-card) .project-media{order:2!important;display:grid!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0!important;padding:12px 18px 22px!important;opacity:1!important;visibility:visible!important;background:#f5f7fb!important}
+  #work .project-feature:not(.enterprise-text-card) .mockup-panel{display:grid!important;place-items:center!important;width:100%!important;min-height:0!important;height:auto!important;background:#f5f7fb!important;overflow:visible!important}
+  #work .project-feature:not(.enterprise-text-card) .mockup-art{display:block!important;visibility:visible!important;opacity:1!important;width:100%!important;height:auto!important;max-width:320px!important;max-height:none!important;object-fit:contain!important;margin-inline:auto!important}
+  #work .project-feature:not(.enterprise-text-card) .project-overlay{display:none!important}
+}
+/* Improve readability across all case-study pages, including blue labels and muted copy. */
+.case-page,.case-hero,.case-section{color:#171923!important}
+.case-section p,.case-intro,.split p,.three-up p,.four-up p,.insight-grid p,.implication-grid p,.archetypes p,.decision-grid p,.case-section li,.case-hero p{color:#424653!important}
+.case-section .eyebrow,.case-meta span,.note{color:#555b68!important}
+.case-section a,.case-hero a{color:#244fb8!important}
+.case-section code,.case-section .tag,.case-section .label,.case-meta span,.case-download span{opacity:1!important}
+.case-section .tag,.case-section .label,.case-meta div,.case-section .chip{background:#edf2ff!important;border-color:#b6c8f5!important;color:#173b87!important}
