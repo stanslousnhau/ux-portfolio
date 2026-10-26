@@ -482,3 +482,50 @@ body:before,.cursor-glow,.portrait-orbit{display:none!important}
 .case-page{background:#fff!important;color:#111!important}.case-hero,.case-section{background:#fff!important;border-color:#eee!important}.case-section.dark,.case-section.subtle,.case-section.feature-section{background:#f8f8fa!important}.case-hero h1,.case-section h2{color:#111!important}.case-intro,.case-section p,.split p,.three-up p,.insight-grid p,.implication-grid p,.archetypes p,.decision-grid p{color:#555861!important}.back-link,.case-meta span,.note{color:#737681!important}.case-meta div{border-color:#e1e2e7!important}.case-meta b,.four-up article b,.metric-grid b,.research-stats b{color:#111!important}.three-up article,.four-up article,.insight-grid article,.implication-grid article,.archetypes article,.decision-grid article,.metric-grid div,.research-stats div,.persona-grid div,.decision-card,.quote-card,.case-download{background:#fff!important;border-color:#e1e2e7!important;color:#111!important;box-shadow:0 5px 18px rgba(15,17,22,.035)!important}.case-download p{color:#555861!important}.loop div,.swatches span{background:#fff!important;border-color:#e1e2e7!important}
 @media(max-width:900px){.hero{padding-top:32px!important;padding-bottom:58px!important;min-height:0!important}.hero-visual{min-height:0!important;height:54px!important;width:54px!important}.hero-copy{order:2}.project-card{min-height:0!important}.project-copy{min-height:0!important;padding:26px!important;grid-template-columns:1fr!important;align-content:start!important}.project-number{display:none!important}.project-overlay{background:linear-gradient(0deg,rgba(255,255,255,.98),rgba(255,255,255,.82) 65%,rgba(255,255,255,.12))!important}.enterprise-text-card .project-copy{padding:26px!important}.nav-links{background:#fff!important;border-color:#e4e5e9!important}.nav-links a{color:#222!important}}
 @media(max-width:600px){.wrap{width:min(calc(100% - 32px),var(--max))!important}.hero h1{font-size:2.5rem!important}.hero-method{font-size:.98rem!important}.section,.case-section{padding:58px 0!important}.project-card{min-height:0!important;border-radius:16px!important}.project-copy{padding:22px!important;min-height:0!important}.project-card h3{font-size:1.9rem!important}.project-card p{font-size:.94rem!important}.project-media{opacity:.22}.project-overlay{background:linear-gradient(0deg,rgba(255,255,255,.99),rgba(255,255,255,.92))!important}.enterprise-text-card .project-copy{padding:22px!important}.about-grid{gap:28px!important}.about-photo,.about-photo img{min-height:380px!important}.contact{padding:68px 0!important}}
+
+
+/* V20 light portfolio fixes: compact hero, remove carousel, improve first-card contrast */
+.capability-carousel{display:none!important}
+/* Keep the enterprise research card readable against its light surface. */
+#work .enterprise-text-card{
+  background:#fff!important;
+  color:#171923!important;
+  border-color:#d9dce5!important;
+  box-shadow:0 16px 40px rgba(20,28,48,.08)!important;
+}
+#work .enterprise-text-card h3,
+#work .enterprise-text-card .project-number,
+#work .enterprise-text-card .text-link{color:#151722!important}
+#work .enterprise-text-card p,
+#work .enterprise-text-card .enterprise-context{color:#424755!important}
+#work .enterprise-text-card .tags span{
+  background:#e8efff!important;
+  border-color:#a9c0ff!important;
+  color:#173b87!important;
+}
+#work .enterprise-text-card .method-row span{
+  background:#eaf0ff!important;
+  border-color:#9db7ff!important;
+  color:#173b87!important;
+}
+#work .enterprise-text-card::before{opacity:.18!important}
+@media(max-width:600px){
+  .hero{
+    display:flex!important;flex-direction:column!important;align-items:flex-start!important;
+    justify-content:flex-start!important;gap:10px!important;min-height:0!important;
+    padding-top:22px!important;padding-bottom:28px!important;
+  }
+  .hero-visual{
+    order:-1!important;min-height:0!important;width:100%!important;height:auto!important;
+    display:flex!important;justify-content:flex-start!important;align-items:flex-start!important;
+    margin:0!important;padding:0!important;
+  }
+  .portrait-orbit{display:none!important}
+  .hero-portrait{width:58px!important;max-width:58px!important;margin:0!important;filter:none!important}
+  .hero-portrait img{width:58px!important;height:58px!important;max-height:58px!important;object-fit:cover!important;border-radius:50%!important}
+  .hero-copy{width:100%!important;margin:0!important;padding:0!important}
+  .hero h1{font-size:clamp(2.5rem,11vw,3.5rem)!important;line-height:.98!important;margin:0 0 12px!important}
+  .hero-role{margin:0 0 8px!important}
+  .hero-method{margin-top:0!important}
+  .cta-row{margin-top:20px!important}
+}
