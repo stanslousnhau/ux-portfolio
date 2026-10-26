@@ -793,3 +793,20 @@ a:focus-visible,button:focus-visible{
   background:linear-gradient(#fff,#fff) padding-box,
              linear-gradient(120deg,#6b8cff 0%,#b58cff 48%,#65d6d0 100%) border-box!important;
 }
+
+
+/* V27: white card surfaces, neutral case-study metadata, and more concise reading rhythm */
+.project-card{background:#fff!important}
+.project-feature .project-card,.project-card{background-color:#fff!important}
+#work .project-card{background:#fff!important}
+.case-page .case-meta span,.case-page .case-meta b{color:#343844!important}
+.case-page .case-meta div{background:transparent!important;border-top:1px solid #dfe1e6!important;box-shadow:none!important}
+.case-page .case-meta span{letter-spacing:.1em!important;font-weight:700!important}
+.case-page .eyebrow{color:#555b68!important}
+.case-page .case-meta b{font-weight:650!important}
+.case-section{padding:72px 0!important}
+.case-section .case-lead{max-width:880px}
+.case-section h2{font-size:clamp(2rem,4vw,3.5rem)!important}
+.case-section .three-up article,.case-section .decision-grid article,.case-section .insight-grid article{padding:22px!important}
+.case-section .note{font-size:.82rem!important;color:#606572!important}
+@media(max-width:600px){.case-section{padding:48px 0!important}.case-section h2{font-size:2.15rem!important}.case-section .three-up article,.case-section .decision-grid article{padding:18px!important}}

@@ -55,3 +55,9 @@ V22: mobile project mockup images now use the full available card width for easi
 V23 update: removed the homepage “How I think” section, restored the original bundled CV from the source website archive, removed the blue method chips from the Enterprise API card, and increased role/status contrast and spacing on all project cards.
 
 V24 portfolio card update (26 October 2026): The homepage project cards now use a portfolio-style side-by-side layout on desktop, with the project visual first and project summary alongside it. On mobile, the visual appears full-width above the project summary. Added a cover visual for the Enterprise API research card and adjusted text, role/status metadata, and image sizing for stronger contrast and legibility.
+
+
+## V27 update
+- Removed the grey tint from project card backgrounds.
+- Neutralised blue/purple highlights on case-study role, status and metadata labels.
+- Condensed each web case study into a hiring-manager-focused narrative: challenge, role/evidence, key insight, design decisions, limitations and next steps. Full original decks remain available for deeper detail.
