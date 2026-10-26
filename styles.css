@@ -683,3 +683,69 @@ a:focus-visible,button:focus-visible{
   #work .project-card h3{font-size:clamp(1.8rem,8vw,2.25rem)!important}
   #work .enterprise-text-card .project-copy{padding:26px 22px!important}
 }
+
+/* V24: portfolio-style side-by-side project cards; mockup first, story second */
+#work .project-stack{display:grid!important;gap:26px!important}
+#work .project-card.project-feature{
+  display:grid!important;
+  grid-template-columns:minmax(0, .95fr) minmax(0, 1.05fr)!important;
+  align-items:stretch!important;
+  min-height:0!important;
+  height:auto!important;
+  overflow:hidden!important;
+  background:#fff!important;
+  border:1px solid #e1e4eb!important;
+  border-radius:22px!important;
+  box-shadow:0 10px 30px rgba(20,30,50,.07)!important;
+  color:#171923!important;
+}
+#work .project-card.project-feature .project-media{
+  grid-column:1!important;grid-row:1!important;
+  position:relative!important;inset:auto!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  width:100%!important;height:100%!important;min-height:320px!important;
+  padding:26px!important;margin:0!important;opacity:1!important;visibility:visible!important;
+  background:#f1f4fa!important;overflow:hidden!important;
+}
+#work .project-card.project-feature .mockup-panel{
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  width:100%!important;height:100%!important;min-height:280px!important;
+  aspect-ratio:auto!important;padding:0!important;margin:0!important;
+  background:transparent!important;border:0!important;overflow:visible!important;
+}
+#work .project-card.project-feature .mockup-art,
+#work .project-card.project-feature .enterprise-stage img{
+  display:block!important;visibility:visible!important;opacity:1!important;
+  width:100%!important;max-width:560px!important;height:auto!important;max-height:420px!important;
+  object-fit:contain!important;object-position:center!important;margin:auto!important;
+  border-radius:12px!important;box-shadow:0 12px 28px rgba(17,25,40,.10)!important;
+}
+#work .project-card.project-feature .project-copy{
+  grid-column:2!important;grid-row:1!important;position:relative!important;
+  display:block!important;min-height:0!important;height:100%!important;
+  padding:clamp(26px,3.4vw,48px)!important;align-content:center!important;
+  background:#fff!important;color:#171923!important;
+}
+#work .project-card.project-feature .project-number{display:block!important;color:#626a78!important;padding:0!important;margin-bottom:12px!important}
+#work .project-card.project-feature h3{color:#141821!important;font-size:clamp(1.8rem,2.8vw,2.8rem)!important;line-height:1.08!important;margin:0 0 16px!important}
+#work .project-card.project-feature p{color:#4a505d!important;font-size:.96rem!important;line-height:1.7!important}
+#work .project-card.project-feature .tags{margin-bottom:16px!important}
+#work .project-card.project-feature .tags span{color:#344054!important;background:#f5f7fb!important;border:1px solid #dce2ec!important}
+#work .project-card.project-feature .project-meta{background:#f4f6fa!important;border:1px solid #dce1ea!important;color:#252c39!important}
+#work .project-card.project-feature .project-meta span{color:#252c39!important}
+#work .project-card.project-feature .project-meta b{color:#39465a!important}
+#work .project-card.project-feature .text-link{color:#214bb5!important;text-decoration-color:rgba(33,75,181,.35)!important}
+#work .project-card.project-feature::before,#work .project-card.project-feature .project-overlay{display:none!important}
+#work .project-card.project-feature::after{height:4px!important;opacity:1!important}
+@media(max-width:760px){
+  #work .project-card.project-feature{grid-template-columns:minmax(0,1fr)!important;grid-template-rows:auto auto!important}
+  #work .project-card.project-feature .project-media{grid-column:1!important;grid-row:1!important;min-height:0!important;height:auto!important;padding:16px!important}
+  #work .project-card.project-feature .mockup-panel{min-height:0!important;aspect-ratio:4/3!important}
+  #work .project-card.project-feature .mockup-art,
+  #work .project-card.project-feature .enterprise-stage img{width:100%!important;max-width:100%!important;max-height:none!important;height:auto!important;object-fit:contain!important}
+  #work .project-card.project-feature .project-copy{grid-column:1!important;grid-row:2!important;padding:22px!important}
+  #work .project-card.project-feature h3{font-size:clamp(1.7rem,7.5vw,2.2rem)!important}
+  #work .project-card.project-feature p{font-size:.94rem!important}
+  #work .project-card.project-feature .project-meta{display:flex!important;flex-direction:column!important;gap:10px!important}
+  #work .project-card.project-feature .project-meta span{flex:1 1 auto!important}
+}
