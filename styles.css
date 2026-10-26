@@ -774,3 +774,22 @@ a:focus-visible,button:focus-visible{
   #work .project-card.enterprise-text-card .project-copy{padding:24px!important}
   #work .project-card.enterprise-text-card h3{font-size:clamp(1.7rem,7.5vw,2.2rem)!important}
 }
+
+/* V26: subtle gradient outline on every project card; white visual panel */
+#work .project-card.project-feature{
+  border:1.5px solid transparent!important;
+  background:linear-gradient(#fff,#fff) padding-box,
+             linear-gradient(120deg,#6b8cff 0%,#b58cff 48%,#65d6d0 100%) border-box!important;
+  box-shadow:0 10px 30px rgba(20,30,50,.06)!important;
+}
+#work .project-card.project-feature .project-media{
+  background:#fff!important;
+}
+#work .project-card.project-feature .mockup-panel{
+  background:#fff!important;
+}
+#work .project-card.project-feature::after{display:none!important;}
+#work .project-card.enterprise-text-card{
+  background:linear-gradient(#fff,#fff) padding-box,
+             linear-gradient(120deg,#6b8cff 0%,#b58cff 48%,#65d6d0 100%) border-box!important;
+}
