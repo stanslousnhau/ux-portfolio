@@ -72,3 +72,9 @@ V28 case-study improvements: added explicit evidence-to-decision examples to Ent
 - Improved visual captions to direct hiring managers to the evidence each artefact supports and clarify evidence limits.
 - Added responsive styling for trade-off cards, test plans, image captions, and narrow screens.
 - Browser QA performed with headless Chromium at desktop and mobile viewport sizes; archive integrity checked.
+
+
+## V30 changes
+- Replaced gradient borders on homepage project cards with solid black borders.
+- Removed the four capability/skill blocks from the About Me section while retaining the biography text and photo.
+- Updated the stylesheet cache-buster to V30.
