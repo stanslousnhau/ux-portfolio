@@ -44,3 +44,6 @@ V13: added purple gradient emphasis to the quantitative thinking cards and think
 
 
 V14: removed the Enterprise API homepage process visual and replaced it with a compact text-only card with more context about the user's role, methods and strategic contribution. Updated stylesheet cache key to v14.
+
+
+V21: recruiter-focused refinements: homepage project cards now show role and project status; the abstract systems-thinking diagram is replaced with an anonymised research-to-recommendation example; the About section explicitly includes UX research class facilitation; focus-visible keyboard styles were added; and the latest revised one-page CV replaces the bundled download. The previous removal of “My Quantitative Edge” is preserved.

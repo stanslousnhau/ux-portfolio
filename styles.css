@@ -554,3 +554,56 @@ body:before,.cursor-glow,.portrait-orbit{display:none!important}
 .case-section a,.case-hero a{color:#244fb8!important}
 .case-section code,.case-section .tag,.case-section .label,.case-meta span,.case-download span{opacity:1!important}
 .case-section .tag,.case-section .label,.case-meta div,.case-section .chip{background:#edf2ff!important;border-color:#b6c8f5!important;color:#173b87!important}
+
+
+/* V21 recruiter clarity and concrete systems-thinking example */
+.project-meta{
+  display:flex;flex-wrap:wrap;gap:8px 18px;
+  margin:14px 0 18px;padding-top:13px;
+  border-top:1px solid rgba(255,255,255,.12);
+  color:#c4c7d0;font-size:.76rem;line-height:1.5
+}
+.project-meta span{display:inline-block}
+.project-meta b{
+  display:block;margin-bottom:2px;color:#8f95a4;
+  font-size:.63rem;letter-spacing:.09em;text-transform:uppercase
+}
+.thinking-context{margin-top:22px;color:#d8d9e0;font-size:.9rem}
+.systems-example{
+  display:grid;gap:0;align-content:center;
+  padding:clamp(18px,3vw,34px);
+  border:1px solid rgba(137,118,255,.23);border-radius:28px;
+  background:linear-gradient(150deg,rgba(137,118,255,.075),rgba(255,255,255,.018));
+  box-shadow:0 22px 65px rgba(0,0,0,.18)
+}
+.systems-step{
+  padding:19px 20px;border:1px solid rgba(255,255,255,.09);
+  border-radius:17px;background:rgba(12,14,21,.8)
+}
+.systems-label{
+  display:block;margin-bottom:8px;color:#a99aff;
+  font-size:.66rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase
+}
+.systems-step h3{margin:0 0 7px;font-size:1.1rem;letter-spacing:-.025em;color:#f5f5f8}
+.systems-step p{margin:0;color:#b9bdc7;font-size:.88rem;line-height:1.65}
+.systems-connector{text-align:center;padding:7px 0;color:#9d8bff;font-size:1.25rem}
+.systems-step-recommendation{
+  border-color:rgba(137,118,255,.32);
+  background:linear-gradient(135deg,rgba(137,118,255,.11),rgba(12,14,21,.9))
+}
+.systems-note{margin:14px 2px 0;color:#8f95a4;font-size:.74rem;line-height:1.6}
+a:focus-visible,button:focus-visible{
+  outline:3px solid #b7a8ff;outline-offset:4px;border-radius:6px
+}
+.project-card:focus-visible{
+  outline:3px solid #b7a8ff;outline-offset:5px
+}
+@media(max-width:900px){
+  .systems-example{margin-top:8px}
+}
+@media(max-width:600px){
+  .project-meta{gap:10px 16px;margin-top:12px}
+  .project-meta span{flex:1 1 135px}
+  .systems-example{padding:14px;border-radius:22px}
+  .systems-step{padding:16px}
+}
