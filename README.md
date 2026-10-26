@@ -64,3 +64,11 @@ V24 portfolio card update (26 October 2026): The homepage project cards now use 
 
 
 V28 case-study improvements: added explicit evidence-to-decision examples to Enterprise API, RISE and Velocity; added design-rationale/validation framing; rebuilt the Enterprise API “What I did” list into vertically aligned, non-overlapping steps; and added responsive layout rules for the new content.
+
+
+## V29 improvements
+- Added decision trade-offs to each case study, including alternatives, rationale, and risks to validate.
+- Added explicit task-based validation plans with measures and decision rules; no fabricated test results or outcomes.
+- Improved visual captions to direct hiring managers to the evidence each artefact supports and clarify evidence limits.
+- Added responsive styling for trade-off cards, test plans, image captions, and narrow screens.
+- Browser QA performed with headless Chromium at desktop and mobile viewport sizes; archive integrity checked.
