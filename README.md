@@ -61,3 +61,6 @@ V24 portfolio card update (26 October 2026): The homepage project cards now use 
 - Removed the grey tint from project card backgrounds.
 - Neutralised blue/purple highlights on case-study role, status and metadata labels.
 - Condensed each web case study into a hiring-manager-focused narrative: challenge, role/evidence, key insight, design decisions, limitations and next steps. Full original decks remain available for deeper detail.
+
+
+V28 case-study improvements: added explicit evidence-to-decision examples to Enterprise API, RISE and Velocity; added design-rationale/validation framing; rebuilt the Enterprise API “What I did” list into vertically aligned, non-overlapping steps; and added responsive layout rules for the new content.

@@ -810,3 +810,27 @@ a:focus-visible,button:focus-visible{
 .case-section .three-up article,.case-section .decision-grid article,.case-section .insight-grid article{padding:22px!important}
 .case-section .note{font-size:.82rem!important;color:#606572!important}
 @media(max-width:600px){.case-section{padding:48px 0!important}.case-section h2{font-size:2.15rem!important}.case-section .three-up article,.case-section .decision-grid article{padding:18px!important}}
+
+
+/* V28: case-study decision trace and aligned research activity list */
+.case-page .work-steps{display:flex;flex-direction:column;gap:0;margin:26px 0 0;max-width:720px}
+.case-page .work-step{display:grid;grid-template-columns:42px minmax(0,1fr);gap:16px;align-items:start;padding:18px 0;border-top:1px solid #e1e3e8;min-width:0}
+.case-page .work-step:last-child{border-bottom:1px solid #e1e3e8}
+.case-page .work-step>span{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#f0f1f4;color:#454b57;font-size:.76rem;font-weight:800;line-height:1}
+.case-page .work-step h3{font-size:1rem;line-height:1.35;margin:0 0 5px;color:#171a21}
+.case-page .work-step p{margin:0;line-height:1.65;color:#454b57!important;overflow-wrap:anywhere}
+.case-page .evidence-trace{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch;margin:26px 0}
+.case-page .evidence-trace article{min-width:0;padding:24px;border:1px solid #e1e3e8;border-radius:16px;background:#fff;box-shadow:0 5px 18px rgba(15,17,22,.035);display:flex;flex-direction:column;align-items:flex-start}
+.case-page .evidence-trace article>span{display:block;margin:0 0 14px;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:#5a6070;line-height:1.5;overflow-wrap:anywhere}
+.case-page .evidence-trace h3{font-size:1.15rem;line-height:1.3;margin:0 0 10px;color:#171a21;overflow-wrap:anywhere}
+.case-page .evidence-trace p{margin:0;color:#454b57!important;font-size:.92rem;line-height:1.65;overflow-wrap:anywhere}
+.case-page .annotated-visual{margin-top:24px}
+.case-page .annotated-visual figcaption{max-width:760px;margin:10px auto 0;color:#606572;font-size:.84rem;line-height:1.6}
+.case-page .split{align-items:start!important}
+.case-page .split>div,.case-page .split>figure{min-width:0}
+.case-page .split .clean-list{display:flex;flex-direction:column;gap:12px;margin:24px 0 0;padding:0;list-style:none}
+.case-page .split .clean-list li{display:block;position:relative;margin:0;padding:0 0 12px 20px;border-bottom:1px solid #e7e8ec;line-height:1.65;overflow-wrap:anywhere}
+.case-page .split .clean-list li:last-child{border-bottom:0}
+.case-page .split .clean-list li:before{content:"";position:absolute;left:0;top:.72em;width:6px;height:6px;border-radius:50%;background:#737b8b}
+@media(max-width:850px){.case-page .evidence-trace{grid-template-columns:1fr;gap:12px}.case-page .evidence-trace article{padding:20px}.case-page .work-step{grid-template-columns:34px minmax(0,1fr);gap:12px}}
+@media(max-width:600px){.case-page .work-step{padding:15px 0}.case-page .evidence-trace h3{font-size:1.08rem}.case-page .evidence-trace p,.case-page .work-step p{font-size:.9rem}}
