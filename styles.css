@@ -931,3 +931,8 @@ a:focus-visible,button:focus-visible{
   pointer-events: none !important;
   box-sizing: border-box !important;
 }
+
+
+/* V34: clearer research/product-design positioning and case-study evidence notes */
+.case-section .note { padding: 14px 16px; border-left: 3px solid #111; background: rgba(255,255,255,.045); border-radius: 0 8px 8px 0; line-height: 1.6; }
+.case-section .clean-list li { margin: 0 0 10px; line-height: 1.65; }
