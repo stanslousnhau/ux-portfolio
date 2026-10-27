@@ -1135,3 +1135,16 @@ a:focus-visible,button:focus-visible{
     margin: 14px 0!important;
   }
 }
+
+
+/* V51: remove the portfolio headline and prevent the mockup artwork from looking double-layered. */
+#work .section-head{margin-bottom:22px!important;grid-template-columns:1fr!important}
+@media (min-width: 761px){
+  #work .project-card.project-feature:not(.enterprise-text-card) .mockup-art{
+    filter:none!important;box-shadow:none!important;border-radius:0!important;
+    transform:none!important;backface-visibility:hidden!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-media img{
+    transition:none!important;
+  }
+}
