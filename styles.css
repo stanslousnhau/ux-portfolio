@@ -951,3 +951,19 @@ a:focus-visible,button:focus-visible{
 .sketch-figure figcaption{padding:12px 8px 4px;color:#555;font-size:.85rem}
 @media(max-width:850px){.artefact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.artefact-grid{grid-template-columns:1fr}.sketch-figure{padding:7px}}
+
+
+/* V39: persona layout and case-study image spacing/alignment fixes */
+.case-page figure { display:block; float:none; clear:both; box-sizing:border-box; margin:32px 0 36px; position:relative; }
+.case-page figure img { display:block; width:100%; max-width:100%; height:auto; margin:0 auto; object-fit:contain; }
+.case-page figure figcaption { display:block; position:static; margin:12px 0 0; padding:0 2px; line-height:1.65; clear:both; }
+.case-page .wide-figure { width:100%; max-width:900px; margin:32px 0 38px; }
+.case-page .sketch-figure { width:100%; max-width:1000px; margin:32px 0 42px; }
+.case-page .persona-gallery.persona-gallery-two { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px; align-items:start; margin:28px 0 24px; }
+.case-page .persona-gallery.persona-gallery-two figure { width:100%; max-width:none; min-width:0; margin:0; }
+.case-page .process-decisions-stacked { display:grid; grid-template-columns:minmax(0,1fr); gap:34px; margin-top:32px; }
+.case-page .process-decisions-stacked article { min-width:0; width:100%; padding:24px; border:1px solid #e1e2e7; border-radius:18px; background:#fff; box-sizing:border-box; }
+.case-page .process-decisions-stacked article figure { width:100%; max-width:760px; margin:22px 0 26px; }
+.case-page .process-decisions-stacked article p { margin:16px 0 0; line-height:1.75; }
+.case-page .case-section .three-up { margin-top:30px; }
+@media(max-width:700px){ .case-page .persona-gallery.persona-gallery-two { grid-template-columns:minmax(0,1fr); gap:24px; } .case-page .process-decisions-stacked article { padding:18px; } .case-page figure { margin:24px 0 30px; } }

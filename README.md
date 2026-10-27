@@ -19,3 +19,8 @@ V36 updates: removed the process-artefacts section from the Enterprise API case 
 
 
 V37 updates: removed all placeholder/future-material cards from the RISE and Velocity process sections. RISE now pairs the supplied sketches with two high-fidelity design decisions grounded in the RISE case study PDF. Velocity pairs the supplied Pay It Forward wireframes with two high-fidelity design decisions grounded in the Velocity case study PDF. The Enterprise API case study remains unchanged in structure.
+
+
+V39 updates: Velocity now features two side-by-side research-informed persona archetypes, removes prototype screen-count references, stacks the high-fidelity design decisions vertically, and improves spacing/alignment around case-study images and captions.
+
+- V40: Unified portfolio role labels and homepage project tags under UX Designer.
