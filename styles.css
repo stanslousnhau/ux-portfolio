@@ -1104,3 +1104,34 @@ a:focus-visible,button:focus-visible{
     font-size:clamp(1.65rem,2.2vw,2.25rem)!important;
   }
 }
+
+/* V50: slightly shorter desktop project cards; mobile layout remains untouched */
+@media (min-width: 761px){
+  #work .project-card.enterprise-text-card .project-copy{
+    padding: 28px 34px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-media{
+    padding: 16px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .mockup-panel{
+    aspect-ratio: 5/3!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .mockup-art{
+    max-height: 260px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-copy{
+    padding: 22px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-number{
+    margin-bottom: 9px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .tags{
+    margin-bottom: 11px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) h3{
+    margin-bottom: 12px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-meta{
+    margin: 14px 0!important;
+  }
+}
