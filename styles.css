@@ -1067,3 +1067,40 @@ a:focus-visible,button:focus-visible{
 .rise-case .journey-outcome { display: block; margin-top: auto; padding-top: .8rem; color: var(--muted, #66736b); font-size: .88rem; line-height: 1.5; }
 .rise-case .decision-grid article p { line-height: 1.75; }
 .rise-case .case-section .note { max-width: 78ch; }
+
+/* V49: desktop work-card layout - Enterprise full width, RISE and Velocity side by side.
+   The mobile layout below 761px remains unchanged, and mockup assets are untouched. */
+@media (min-width: 761px){
+  #work .project-stack{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    align-items:stretch!important;
+    gap:24px!important;
+  }
+  #work .project-card.enterprise-text-card{
+    grid-column:1 / -1!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card){
+    grid-template-columns:minmax(0,1fr)!important;
+    grid-template-rows:auto 1fr!important;
+    align-content:start!important;
+    min-width:0!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-media{
+    grid-column:1!important;grid-row:1!important;
+    min-height:0!important;height:auto!important;padding:22px!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .mockup-panel{
+    min-height:0!important;aspect-ratio:4/3!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .mockup-art{
+    width:100%!important;max-width:100%!important;max-height:300px!important;
+    height:100%!important;object-fit:contain!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) .project-copy{
+    grid-column:1!important;grid-row:2!important;
+    padding:28px!important;height:100%!important;
+  }
+  #work .project-card.project-feature:not(.enterprise-text-card) h3{
+    font-size:clamp(1.65rem,2.2vw,2.25rem)!important;
+  }
+}
