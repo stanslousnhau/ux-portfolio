@@ -1,0 +1,579 @@
+Shell Velocity Rewards
+MVP
+Designing a petrol-retail rewards experience around the real
+rhythm of a fuel stop.
+
+    JOHANNESBURG PILOT          CARD-AGNOSTIC          CASHLESS
+
+
+
+
+Concept project · individual contributor
+DESIGNED FOR THE NEXT STOP
+
+
+
+                                 VI S I BLE VA LU E
+
+
+                                 Flexible redemption. Payment
+                                 freedom. Intentional tipping.
+
+
+
+                                                                  01
+02    CONTENTS
+
+
+
+
+From forecourt friction to repeat engagement.
+
+
+     01 Project framing
+
+
+     02 Research + competitor signal
+
+
+     03 Behavioural archetypes (hypotheses)
+
+
+     04 Hypotheses + MVP definition
+
+
+     05 Success model
+
+
+     06 Journey + interaction design
+
+
+     07 Final UI + next iteration
+
+
+
+
+                                                02
+“
+Picture Lindiwe, pulling into a Shell garage on her way to work.
+She's filled up here a dozen times this year. She has no idea how
+many rewards she's sitting on, and no real reason to check.
+Her card's buried in a drawer at home somewhere. As far as she's concerned,
+whatever she's earned might as well not exist.
+1       PRO DUCT DI SCO VE RY & CO NT E XT A LI G NME NT
+
+
+
+
+The problem and the opportunity
+
+     South African motorists who refuel at Shell service stations in Johannesburg just like Lindiwe have a card-based programme which
+     ties their rewards to a card they hardly carry and a points balance they never see, while also lacking an easy digital way to tip fuel
+     attendants.
+
+
+     That's not a minor UX gap. A programme customers can't see or act on daily is a programme that costs money to run without
+     earning the repeat visits it's meant to buy. Low visibility isn't just an inconvenience; it's the mechanism that erodes the entire
+     business case for the programme.
+
+
+
+
+    We will conduct an exploratory investigation to identify core friction points and define a focused, frictionless MVP digital rewards ecosystem.
+2         PRO DUCT DI SCO VE RY & CO NT E XT A LI G NME NT
+
+
+
+
+Research method
+I audited loyalty models across five fuel-retail and adjacent high-frequency categories: supermarket loyalty, banking rewards, and fuel rewards to see
+which mechanics correlated with sustained use versus quiet abandonment.
+
+
+
+      Sasol Rewards                    BP Rewards                    Engen 1App                   Discovery Vitality Money                eBucks
+
+
+
+
+WHY A COMPETITOR ANALYSIS?
+
+
+    Constraints
+
+    This was self-directed work, without access to real Shell users or stakeholders to validate assumptions through interviews. Rather than skip research, I
+    substituted a structured competitive and market audit for direct interviews, a reasonable trade-off in early concept work, but one that means the findings
+    are directional, not validated. Programme economics (the cost of cash withdrawals and points-funded tips) were also out of scope and would need
+    modelling before any pilot.
+2    PRO DUCT DI SCO VE RY & CO NT E XT A LI G NME NT
+
+
+
+Full competitive audit (1 of 2)
+                                                                                                                    Works with any     Cashless, instant   Built-in
+                                                                                                                 card/payment method     redemption        tipping
+                          •    Simple, familiar earn rate customers already trust simplified earn-rate (points
+    Sasol Rewards              per litre)
+                          •    Shared family/friends account builds habitual use
+                          •    Wide network of stations across the country
+
+
+
+
+                          •    Stacks with Smart Shopper for a near-best combined earn rate
+     BP Rewards           •    Backed by an established retail partner network
+                          •    Cashback feels tangible and easy to understand
+
+
+
+
+                          •    In-house wallet app layered onto Clicks ClubCard and FNB eBucks
+     Engen 1App           •    Value depends on holding specific partner cards
+                          •    Several users report unclear point tracking and hard-to-read text
+2      PRO DUCT DI SCO VE RY & CO NT E XT A LI G NME NT
+
+
+
+Full competitive audit (2 of 2)
+                                                                                                                   Works with any     Cashless, instant   Built-in
+                                                                                                                card/payment method     redemption        tipping
+                             •   Deep bank integration drives loyalty across many categories
+         eBucks              •   High reward ceiling for top-tier banking customers
+                             •   Rewards extend across groceries, travel, and more
+
+
+
+
+                             •   Highest possible cashback, up to 50% on fuel spend
+    Discovery Vitality       •   Strong behavioural engagement through driving-score gamification
+                             •   Reinforces an existing wellness/insurance relationship
+
+
+
+
+                             •   Already solves cashless tipping for petrol attendants directly
+         Tappy               •   No app, card, or bank account needed for the attendant
+                             •   Fast, lightweight rollout with minimal setup cost
+
+
+
+        Poor / not offered                            Partial                                       Strong / fully offered
+2       PRO DUCT DI SCO VE RY & CO NT E XT A LI G NME NT
+
+
+
+
+What the market audit suggests
+    Visibility is the biggest driver of disengagement
+    The clearest pattern: low visibility into points and rewards was the single biggest driver of disengagement.
+
+
+
+    Invisible value gets abandoned
+    Customers who couldn't easily see what they'd earned, or how to use it, simply stopped engaging.               01                                 02
+
+
+                                                                                                                   Visibility                         Flexibility
+
+    Integrated tipping is a defensible asset
+    Tappy already solves cashless tipping on its own, but no rewards programme in the audit lets customers tip from their rewards inside the same journey. That integration,
+    not tipping itself, is Velocity's most distinctive lever.
+
+
+    Flexibility that exists on paper isn't flexibility
+    Several programmes offered genuinely flexible redemption: partner catalogues, multiple reward types, tiered perks, but buried those options three or four menus deep, or
+    gated them behind thresholds the customer couldn't see until reached.
+
+
+
+
+    Visibility and flexibility must work together, not just exist separately. That combined finding set the direction for the design.
+                                Lindiwe Sibanda                                                                                                                                    1 of 3
+                                The Balance- and Value-Conscious Parent                                                                                                HYPOTHESIS ARCHETYPE
+
+
+                                Age: 45
+                                Occupation: Associate Consultant
+                                Children: 2
+                                Payment method: Debit card / occasionally cash
+
+
+
+Moment of Truth                                                                                    Behaviours
+
+“If it saves us money on the school run and the weekend wash, we're                                •      Refuels 2–3 times a week, often with her children in the car
+in.”                                                                                               •      Uses the convenience store regularly to buy her children snacks
+                                                                                                   •      Switches between card and cash depending on what she has in her wallet
+
+
+
+
+Goal                                                                 Frustrations                                                          Motivations
+•      Redeem points across services (fuel, wash,                    •      Redemption restrictions that don't match real                  •   Being able to use rewards flexibly across all
+       kiosk)                                                               spending habits                                                    services
+•      Track shared/family rewards balance easily                    •      Confusing points-to-value conversions                          •   Transparency and fairness
+•      Stretch family budget further                                 •      Rewards tied to a single card, restricting shared              •   Tangible, easily understood value systems that
+                                                                            use                                                                aren't confusing
+
+
+
+
+Archetype drawn from the competitor audit and market patterns, not from user interviews. Treat it and its quote as a hypothesis to validate.
+                                Lesego Molefe                                                                                                                                     2 of 3
+                                The Time-Pressed, Impatient Commuter                                                                                                    HYPOTHESIS ARCHETYPE
+
+
+                                Age: 32
+                                Occupation: Data Engineer
+                                Children: None
+                                Payment method: Apple Pay or card
+
+
+
+Moment of Truth                                                                                    Behaviours
+
+“I don’t have time to be busy with an app while at the pump that                                   •      Refuels 1–2 times a week at the same station on her commute
+requires my time and effort. Make it quick or I’m out.”                                            •      Pays by card or Apple Pay, rarely carries cash
+                                                                                                   •      Checks her phone briefly at the pump machine
+
+
+
+
+Goal                                                                 Frustrations                                                          Motivations
+•      Fill up quickly on the way to work                            •      Loyalty apps that require log-ins                              •   Convenience and speed
+•      Avoid queues and friction at the till                         •      Rewards that expire before she can use them                    •   Predictability
+•      Get some value back without extra effort                      •      Juggling which card earns which reward                         •   Not feeling penalised for using whatever card
+                                                                     •      Being asked to download another app for a                          is in her wallet that day
+                                                                            small benefit
+
+
+
+
+Archetype drawn from the competitor audit and market patterns, not from user interviews. Treat it and its quote as a hypothesis to validate.
+                                Jabulani Dube                                                                                                                                      3 of 3
+                                The Regular, Generous Loyalist                                                                                                          HYPOTHESIS ARCHETYPE
+
+
+                                Age: 35
+                                Occupation: Bolt Driver
+                                Children: 1
+                                Payment method: Cash and card
+
+
+
+Moment of Truth                                                                                    Behaviours
+
+“The petrol attendants know my name. If there was an easier way to                                 •      Refuels almost every day, in small frequent top-ups
+thank them digitally, I would do it all the time.”                                                 •      Already tips informally in cash when he has it
+
+
+
+
+Goal                                                                 Frustrations                                                          Motivations
+•      Fuel efficiently between rides to maximise                    •      No way to tip the attendants digitally                         •   Social connection and recognition at his local
+       earning time                                                  •      Cash tipping feels inconsistent, and feels like                    station
+•      Build a closer relationship with the fuel                            he is disappointing his friends when he can’t                  •   A sense of generosity and community
+       attendants, as some have become friends                              tip them                                                       •   Flexibility, since his payment method is
+•      Redeem rewards on everyday essentials like                                                                                              different by day
+       refreshments and snacks from the kiosk
+
+
+
+Archetype drawn from the competitor audit and market patterns, not from user interviews. Treat it and its quote as a hypothesis to validate.
+   What the three archetypes point to
+   The common thread beneath all three archetypes is control:
+
+
+         Control over which payment method is used
+
+         Control over where value can be redeemed
+
+         Control over how generosity is expressed
+
+    HUMAN CONTROL                                                                                                                                  AUTONOMY
+
+
+
+Fully Autonomous                                                       Human-Machine Interface                                                          Fully Manual
+
+
+
+
+       The MVP's job is to remove the constraints that currently take that control away.
+
+
+
+       Tension to test: Lesego will not spend effort on an app at the pump, yet the MVP is app-based. The bet is that one glance at a visible balance
+       replaces card juggling. Task tests must time this at the pump.
+HYPOTHESES TO VALIDATE FIRST
+
+
+
+
+Four hypotheses I would validate first.
+
+        H1 VISIBILITY                                                Reward visibility increases return engagement.
+
+
+
+        H2 CARD-AGNOSTIC                                             Card-agnostic earning matters.
+
+
+
+        H3 CASH-OUT                                                  Customers value withdrawing rewards as cash.
+
+
+
+        H4 TIPPING                                                   Digital tipping belongs inside the loyalty journey.
+
+
+
+
+   D E C I S I ON R U L E      If a hypothesis fails, that MVP behaviour is cut or reshaped, not defended.
+MVP DEFINITION
+
+
+
+
+The MVP is four behaviours, not a long feature list.
+
+      01 SEE IT                                                 One unified, visible balance
+
+
+
+      02 USE IT NOW                                             Redeem during the fuel stop
+
+
+
+      03 PAY MY WAY                                             Keep payment card-agnostic
+
+
+
+      04 THANK CLEARLY                                          Separate digital tipping from redemption
+
+
+
+
+   PRODUCT PRINCIPLE     If it does not help at the pump, it does not belong in the MVP.
+3         MVP DE FI NI T I O N
+
+
+
+
+Core MVP success matrix
+How I'd measure success
+
+
+
+
+    01        SIGN-UP RATE        REJECTED
+                                                       Curiosity can be bought; it does not prove behaviour changed.
+
+
+
+
+    02        REDEMPTION RATE     SECONDARY
+                                                       Proves the flow works, but not whether the customer returns.
+
+
+
+
+    03        REPEAT ENGAGEMENT    PRIMARY
+                                                       Directly tests whether visibility and control create habit. Target set against a pre-pilot
+                                                       baseline of current programme members.
+
+
+
+
+ 30/60                             PRIMARY                                                         WHY
+ day return rate vs. baseline      repeat engagement                                               the experience should earn another stop
+JOURNEY DESIGN
+
+
+
+
+The digital flow mirrors the physical station journey.
+                                                                                     Launch app
+
+
+
+
+                                                                     Log in                        Sign up
+
+
+
+
+                                                                                  Home dashboard
+
+
+
+
+                    Fuel payment                                  Rewards                             Tip attendant                Profile & wallet
+
+
+
+
+                 Choose pump / amount                         Points balance                         Select attendant
+
+
+
+
+                     Pay by card                  Redeem reward               Withdraw money        Choose tip amount   Add card                 Add bank
+
+
+
+
+       Receipt                      Earn points                             Bank / card payout       Tip confirmation
+32   DESIGN SCREENS
+ DE SI G N DE CI SI O NS
+
+
+
+
+ Key decisions & visual design system
+
+    01 SEE IT
+
+
+
+
+One unified balance, not separate wallets
+
+Decision: Fuel and in-store purchases feed one visible points balance.
+Rejected: Separate fuel-points and shop-points wallets that mirror Shell's business structure.
+Many balances are harder to track than one.
+Effect: One number reinforces the “one programme” mental model and makes rewards an
+active part of the experience.
+ DE SI G N DE CI SI O NS
+
+
+
+
+ Key decisions & visual design system
+
+
+   02 USE IT NOW
+
+
+
+
+Real-time visibility and control over point usage
+
+Decision: Users can redeem or withdraw value close to the moment it is earned.
+Rejected: High redemption thresholds, delayed rewards and restricted catalogues. They suit
+long-term accumulation but make the benefit feel distant.
+Effect: Shortens the distance between behaviour and benefit. Value should not only be earned;
+it should be usable.
+ DE SI G N DE CI SI O NS
+
+
+
+
+ Key decisions & visual design system
+
+
+    03 PAY MY WAY
+
+
+
+
+Preserve customer freedom
+
+Decision: Earning stays payment-agnostic; customers choose how they pay.
+Rejected: A bank-linked or single-card structure that requires a specific financial product to
+qualify.
+Effect: Broadens participation and keeps Shell, not a banking partner, at the centre of the loyalty
+relationship.
+ DE SI G N DE CI SI O NS
+
+
+
+
+ Key decisions & visual design system
+
+
+    04 THANK CLEARLY
+
+
+
+
+Bring the human service layer into the ecosystem
+
+Decision: Tipping is separate from the fuel transaction, with recipient and amount
+made explicit.
+Rejected: A purely transactional journey, and gratuity bundled invisibly into the fuel
+payment.
+Effect: Preserves the human layer of the forecourt while supporting a cashless
+future.
+VISUAL DESIGN SYSTEM
+
+
+
+
+Design system at a glance
+
+  COLOUR
+
+
+
+    Orange                                  Lime                                 Amber                                       Error
+
+    #FF6A00                  Action, fuel   #C9FF38          Rewards, success    #FF9A2F            Pending, warnings        #FF4D4D             Failures, debits
+
+
+    Background                 Text
+    #080A09                    #FFFFFF
+
+
+
+
+  TYPOGRAPHY                                 BORDER RADIUS                                                 SPACING · BASE 4PX
+
+
+
+
+  Aa                   Inter
+                       Font family             r-1    r-2        r-3       r-4    r-5      r-full
+                                                                                                           4   8   12   16     20      24   32             48
+NEXT ITERATION
+
+
+
+
+The next test belongs at the station.
+The concept should now meet real motorists, attendants and operational constraints.
+
+
+
+      01 INTERVIEWS                                                   Test H1–H4: visibility, card-agnostic earning, cash-out, in-journey tipping.
+
+
+
+      02 TASK TESTS                                                   Test comprehension of balance, redeem and tip flows.
+
+
+
+      03 LIVE PILOT                                                   Track 30/60-day return vs. baseline, service-time impact and programme cost.
+
+
+
+      04 ITERATE                                                      Keep only the mechanics that earn another visit.
+
+
+
+
+   P O R T F OL I O T A K E A W A Y   I used imperfect evidence to make a precise design bet then defined how I would prove or disprove it.
+THANKYOU
+A rewards experience designed around the real rhythm of the
+forecourt.
+
+
+
+  SEE VALUE · USE IT NOW · COME BACK
+
+                                                                 DESIGNED FOR
+
+
+
+                                                              THE NEXT STOP
+

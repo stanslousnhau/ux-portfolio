@@ -1,0 +1,424 @@
+           RISE
+Real Income, Steady Earnings
+Youth unemployment in South Africa has climbed for a decade from
+36.9% in 2015 to 47.4% by Q2 2026. This study explores what happens on
+the other side of that statistic: not the job search, but the first few months
+of being paid.
+
+
+
+M Y ROLE                                      STATUS
+
+Individual Contributor, UX Designer           Design exploration, not built or shipped
+
+                                                                                         01
+EXECUTIVE SUMMARY
+
+
+The first-payslip problem looks structural, and one point in the loop is
+designable
+
+
+     47.4%                                   3 of 3                                   5                                           > R0
+     CONTEXT                                 INSIGHT                                  RESPONSE                                    MEASURE
+
+     Youth unemployment by                  The convergence of three                  Design decisions that                       Success is a buffer that
+     Q2 2026. Landing a first               independent signals                       protect financial                           survives to the next
+     job changes the pressure               suggested that the problem                breathing room: a Buffer,                   payday, not sign-ups or
+     on a young earner; it does             may be structural rather than             a predictive warning,                       app opens.
+     not remove it.                         purely behavioural, giving us             shame-free help and
+                                            a hypothesis to test with first-          context-first onboarding.
+                                            job earners.
+
+
+
+
+     Status: design exploration, not built or shipped. Next: test with real first-job earners and stress-test irregular income.
+
+
+
+RISE · UX design case study                                                                                                                                  2
+“
+I finally have a job. Why do I feel like I’m
+failing at it before I’ve even started
+spending?
+
+Thabo (composite persona), 23 – four months into his first job
+Illustrative quote, not a verbatim interview.
+CONTEXT
+
+
+Getting the job does not end the pressure, it changes its shape
+
+The hidden cost of looking
+                                                                                            Youth unemployment rate                  Thabo’s road to a first job
+Nobody puts the real cost of finding work in the job advert: taxi                           South Africa, % of youth labour force    Count, from application to role
+fares to interviews, data for video calls, CVs printed at an
+internet café. Thabo made 38 applications, had 3 interviews and
+one almost-offer that turned out to be a scam before landing his
+                                                                                                                            47,4%
+role.                                                                                                                                Applications                      38
+                                                                                                    36,9%
+
+
+                                                                                                                                      Interviews        3
+Why the first payslip carries so much weight
+
+Existing youth accounts offer no plan for uncertainty, no place
+for family obligation, and no way to ask a “stupid” question                                                                          Job landed       1
+without shame. Many young people quietly conclude that banks
+were never for them.                                                                                 2015                  Q2 2026
+
+
+                                                                                            +10.5 pts                                1 in 38
+                                                                                            in a decade                              applications ended in a job
+Thabo is a composite persona. His story and the application counts illustrate the pattern
+from secondary research, not a single interviewee's data.
+
+
+RISE · UX design case study                                                                                                                                                 4
+RESEARCH
+
+
+Three independent signals point the same way: this looks structural, not
+just a mindset problem
+I chose statistics that could test three different explanations for the same behaviour. If young people were simply “bad with money”, one would be weak
+and the others fine. All three came back low.
+
+
+     THE EMOTIONAL STATE                                  THE SKILLS GAP                                        THE OUTLOOK
+
+
+
+                                      of South Africans
+                                                                                                                                                 say they do not
+                                      under 35 report                                       feel confident in
+              75%                     financial anxiety            39%                      their own digital          50%+                      know how to
+                                                                                                                                                 build a stable
+                                      or stress, up 18%                                     financial skills
+                                                                                                                                                 financial future
+                                      year-on-year
+
+
+
+
+     Source: Debt Rescue Money Stress Tracker, 2026       Source: SA Social Media Landscape report              Source: Old Mutual Youth Generational Wealth Survey
+
+
+
+     So what: three angles on one population move “maybe it’s a mindset problem” toward “this looks structural”. Skills and outlook are self-
+     reported, so income and cost-of-living data would strengthen the case.
+
+RISE · UX design case study                                                                                                                                           5
+SYNTHESIS
+
+
+Thabo does not need a feature-rich banking app; he needs to know he
+will still be okay
+
+                         COMPOSITE PERSONA
+                                                           BEHAVIOURS                                              DECISION-MAKING
+
+                         Thabo Mahlangu                    Checks balance after payday, debit orders               Splits money into transport, home, food
+                                                           and larger purchases. Always asks: “What                and “do not touch”. Prefers reversible
+                         The Cautious Provider
+                                                           will I have left after this?”                           moves over locked commitments.
+                         23 · Johannesburg · first job ·
+                         R6,800/month
+
+
+     “If I spend this now, will I still be
+     okay later?”                                          FRUSTRATIONS                                            MOTIVATIONS
+
+                                                           Banks show what happened, not what                      Support home without losing progress.
+                                                           happens next. Jargon makes him feel                     Build credit without debt anxiety. End the
+                                                           judged; surprise deductions break his                   month with money remaining.
+     CORE NEED
+                                                           sense of control.
+     Financial breathing room: keeping his buffer
+     above zero.
+
+
+                                                           Product implication: prioritise safe-to-spend, upcoming deductions and buffer warnings; design for
+                                                           pressure moments, not only account management.
+
+
+RISE · UX design case study                                                                                                                                     6
+INSIGHT
+
+
+The problem is a loop, and only one point in it is inside a product’s
+control
+                                                                                                        Why a loop, not a journey
+
+                                        1    Payday arrives                                             A linear journey (payday, open the app, adjust a budget)
+                                                                                                        cannot explain why the same problem returns every
+                                                                                                        month. A loop shows that identical starting conditions
+                                                                                                        produce identical outcomes unless something inside it
+                                                                                                        changes. Naming the loop is what lets us choose a
+                                                                                Family remittance       deliberate point to interrupt.
+        No habit or safety
+   5                                                                       2    claims a fixed share,
+        net forms
+                                                                                immediately             The loop is a working hypothesis from secondary research. Family remittance
+                                              Same start,                                               needs validating in interviews.
+                                               same end,
+                                             every month
+                                                                                                             One point in five is designable
+                                                                                                             RISE cannot change what family expects or when
+                                                                                                             payroll runs. It can make checking in on money private
+                        Shame blocks help-                        Little or no buffer
+                   4                                          3                                              and judgment-free enough that shame does not get
+                        seeking                                   remains
+                                                                                                             the final word.
+
+
+                                    RISE INTERVEN E S HERE (3 → 4)
+
+
+
+RISE · UX design case study                                                                                                                                                           7
+MEASUREMENT
+
+
+Success is a safety net that survives the month, not an account that gets
+opened
+
+         REJECTED
+                              Sign-up rate                                   Easy to inflate with a marketing push; says nothing about whether the payday
+                                                                             moment was handled differently.
+                              How many first-job earners create an account
+
+
+
+
+       SECONDARY
+                              App opens on payday                            Shows a habit forming around the moment, but not whether anyone is better
+                                                                             off because of it.
+                              Whether the calm notification gets attention
+
+
+
+
+                              Buffer balance > 0
+                                                                             Directly tests whether the design interrupted the loop. A habit that does not
+         PRIMARY              Whether a safety net survived the month
+                                                                             survive to the next payday has not changed anything.
+
+
+
+
+North star: does Thabo still have something in his Buffer the day before his next payslip lands?
+
+RISE · UX design case study                                                                                                                                  8
+STRATEGY
+
+
+Five design decisions, each replacing a banking convention with a
+response to the loop
+
+   DECISION                           BARRIER IT ADDRESSES                         CONVENTION REJECTED
+
+
+  1 Buffer as a first-class object    Falling below zero with no protected money   A buffer treated as one more savings goal
+
+
+
+  2 Ask RISE quick-question channel   Embarrassment blocks help-seeking            FAQ, hidden chatbot or support ticketing
+
+
+
+  3 Money 101 progressive lessons     Jargon; not knowing what to learn            A standalone financial literacy hub
+
+
+
+  4 Context-first onboarding          Income alone does not show life stage        KYC-first, compliance-heavy sequence
+
+
+
+  5 Predictive buffer warning         Alerts arrive after the damage is done       Fixed-threshold low-balance alert
+
+
+
+
+RISE · UX design case study                                                                                                    9
+DESIGN DECISION 1 OF 5
+
+
+Make the Buffer a first-class financial object, not another savings account
+
+DECISION
+
+The Buffer is surfaced in onboarding and throughout the experience as money
+that protects Thabo from falling below zero.
+
+WHY
+
+His measure of progress is not wealth accumulation yet; it is surviving the month
+with something left. RISE separates money that protects stability from money
+that funds ambition.
+
+REJECTED
+
+Treating the buffer as a savings goal beside a phone or holiday. It would make an
+essential safety mechanism compete with aspirations.
+
+
+
+
+     Links to the primary metric: buffer balance above zero.
+
+
+
+RISE · UX design case study                                                         10
+DESIGN DECISIONS 2 AND 3 OF 5
+
+
+Treat asking for help as normal banking, and learning as support, not
+homework
+
+    Ask RISE: a quick-question channel, not a support ticket
+    DECISION           A clear place to ask money questions, with suggested prompts so nobody starts from
+                       a blank screen.
+    WHY                Embarrassment stops people asking at all (loop point 4), and early on they may lack
+                       the terms to search a help centre.
+    REJECTED           An FAQ, hidden chatbot or ticketing flow. They optimise support operations, not the
+                       psychological barrier.
+
+
+
+    Money 101: progressive lessons, not a wall of terms
+    DECISION           Short lessons that sit alongside everyday banking and connect to decisions a first-job
+                       earner is already making.
+    WHY                Education works best near the moment of uncertainty and helps a habit and safety
+                       net form (loop point 5).
+                                                                                                                Help-seeking and learning live inside the app people
+    REJECTED           A literacy hub of articles and definitions. It assumes users know what to learn and                         already use.
+                       are motivated to search.
+
+
+
+RISE · UX design case study                                                                                                                                            11
+DESIGN DECISION 4 OF 5
+
+
+Start onboarding with context, not compliance
+
+DECISION
+
+A sequence of lightweight questions about employment stage, income and
+priorities replaces one dense screen of KYC fields.
+
+
+WHY
+
+Income alone does not show stability. A new hire, someone on probation and
+someone months into a role may earn the same but need very different support.
+
+
+
+REJECTED
+
+KYC-first onboarding as the dominant experience. It tells the bank who the
+customer is, not what financial transition they are navigating.
+
+
+
+     Effect: RISE understands Thabo’s reality before it recommends anything.
+
+
+
+RISE · UX design case study                                                     12
+DESIGN DECISION 5 OF 5
+
+
+Warn before the buffer breaks, not after the balance is gone
+
+DECISION
+
+RISE warns when an action is likely to reduce the protected buffer, showing what
+may happen next, how much is safe to spend, and how to protect breathing
+room.
+
+WHY
+
+It turns an alert into a decision-support moment, using the user’s own context
+rather than a fixed number.
+
+REJECTED
+
+A conventional fixed-threshold alert. It reacts too late and ignores upcoming
+obligations.
+
+
+
+
+     Where RISE moves beyond a banking app: RISE predicts when breathing room is
+     about to disappear.
+
+
+RISE · UX design case study                                                        13
+DESIGN SYSTEM
+
+
+A calm visual language where colour carries meaning
+
+                                                                      TYPE SCALE            ·   BASE 16, RATIO 1.25
+   Core Blue                          Deep Navy
+   #285EF6                            #071846
+   Primary actions, selected states   Ask RISE, focused guidance      H1                                                        60px
+
+
+   Obligation Orange                  Risk Red                        H2                                                        39px
+   #EC592D                            #F14A46
+   Required costs                     Buffer warning and risk state
+                                                                      H4                                                        31px
+
+   Safety Green                       Sky Tint
+   #008200                            #EEF4FF                         Text heading                                              24px
+   Goals, progress, on-track states   Selected cards, calm surfaces
+
+
+                                                                      Text body                                                 20px
+   Ink                                State Grey
+   #111111                            #5A5A5A
+   Primary text                       Secondary, supporting text      Text label                                                16px
+
+
+                                                                      RADIUS xs 4 · sm 8 · md 12 · lg 16          Primary   Disabled
+
+
+
+
+RISE · UX design case study                                                                                                            14
+NEXT STEPS
+
+
+What would come after this exploration
+
+
+
+
+  01                                      02                                      03
+  Test with real first-job                Stress-test irregular income            Measure what matters
+  earners
+  Check that the Buffer, the predictive   Everything here assumes a predictable   The real test is whether Thabo still has
+  warning and Ask RISE behave as          monthly payday. Gig and informal        something left in Buffer the day before
+  intended outside a prototype.           income does not arrive on a schedule,   his next payslip lands, not whether he
+                                          so a design built around “the day it    opened the app on payday.
+                                          lands” must hold up when that day
+                                          moves.
+
+
+
+
+                                                                                                                             15
+ThankYou
+RISE was a self-directed exploration of what real financial support looks like in the first few
+months after a first paycheck, built from research, not assumption.
+
+
+
+
+                                                                                                  16
+
