@@ -967,3 +967,15 @@ a:focus-visible,button:focus-visible{
 .case-page .process-decisions-stacked article p { margin:16px 0 0; line-height:1.75; }
 .case-page .case-section .three-up { margin-top:30px; }
 @media(max-width:700px){ .case-page .persona-gallery.persona-gallery-two { grid-template-columns:minmax(0,1fr); gap:24px; } .case-page .process-decisions-stacked article { padding:18px; } .case-page figure { margin:24px 0 30px; } }
+
+
+/* V43: clearer Velocity persona needs/values and single competitor-analysis slide */
+.case-page .persona-gallery-two .persona-caption { margin-top:18px; padding:18px; border:1px solid #e1e2e7; border-radius:14px; background:#fff; color:#252525; line-height:1.6; overflow-wrap:anywhere; }
+.case-page .persona-gallery-two .persona-caption > strong { display:block; font-size:1.02rem; line-height:1.4; margin-bottom:14px; }
+.case-page .persona-details { display:grid; grid-template-columns:1fr; gap:12px; }
+.case-page .persona-details p { display:grid; grid-template-columns:78px minmax(0,1fr); gap:10px; margin:0; padding-top:12px; border-top:1px solid #e7e7e7; font-size:.93rem; line-height:1.6; }
+.case-page .persona-details p b { color:#222; }
+.case-page .persona-details p span { color:#555; }
+.case-page .competitor-slide { max-width:1100px; padding:16px; background:#fff; }
+.case-page .competitor-slide img { width:100%; height:auto; }
+@media(max-width:520px){ .case-page .persona-details p { grid-template-columns:1fr; gap:4px; } .case-page .persona-gallery-two .persona-caption { padding:14px; } .case-page .competitor-slide { padding:8px; } }
