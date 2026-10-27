@@ -172,7 +172,7 @@ figure,.wide-figure,.split figure,.gallery.two figure{max-width:560px}
 /* =========================================================
    V14 PREMIUM DARK THEME
    Restores the original dark visual system while preserving
-   V12–V14 component emphasis and compact enterprise layout.
+   V12-V14 component emphasis and compact enterprise layout.
    ========================================================= */
 html{color-scheme:dark}
 
@@ -465,7 +465,7 @@ html{color-scheme:dark}
 /* V18: location label has no decorative line on any breakpoint */
 .hero-location::before,.hero-location::after{content:none!important;display:none!important;width:0!important;height:0!important}
 
-/* V20 — clean, minimal editorial redesign inspired by the reference */
+/* V20 ,  clean, minimal editorial redesign inspired by the reference */
 :root{--bg:#fff;--panel:#fff;--panel2:#f7f7f8;--text:#101114;--muted:#555861;--line:#e4e5e9;--purple:#6d5dfc;--purple2:#6d5dfc;--blue:#3f78ff;--orange:#ff6a00;--max:1180px;--radius:20px;--shadow:0 8px 28px rgba(16,17,20,.055)}
 html,body{background:#fff!important;color:#101114!important}
 body:before,.cursor-glow,.portrait-orbit{display:none!important}
@@ -608,7 +608,7 @@ a:focus-visible,button:focus-visible{
   .systems-step{padding:16px}
 }
 
-/* V22 — make project mockups genuinely legible on phones and improve case-study media */
+/* V22 ,  make project mockups genuinely legible on phones and improve case-study media */
 @media(max-width:600px){
   #work .project-feature:not(.enterprise-text-card) .project-media{
     padding:0 12px 16px!important;
@@ -936,3 +936,18 @@ a:focus-visible,button:focus-visible{
 /* V34: clearer research/product-design positioning and case-study evidence notes */
 .case-section .note { padding: 14px 16px; border-left: 3px solid #111; background: rgba(255,255,255,.045); border-radius: 0 8px 8px 0; line-height: 1.6; }
 .case-section .clean-list li { margin: 0 0 10px; line-height: 1.65; }
+
+
+/* V35: process artefacts and supplied RISE sketches */
+.process-artefacts .lead{max-width:760px;margin:18px 0 34px;color:var(--muted)}
+.artefact-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:28px}
+.artefact-grid article{border:1px solid var(--line);border-radius:16px;padding:22px;background:#fff;min-width:0}
+.artefact-grid article>span{font-size:.72rem;font-weight:800;color:var(--purple)}
+.artefact-grid h3{margin:14px 0 8px;font-size:1.2rem;line-height:1.2}
+.artefact-grid p{font-size:.9rem;color:var(--muted);margin:0 0 18px}
+.artefact-grid small{display:block;border-top:1px solid var(--line);padding-top:12px;color:#777;font-size:.75rem}
+.sketch-figure{margin:34px 0 40px;border:1px solid var(--line);border-radius:18px;padding:12px;background:#f4f2eb;overflow:hidden}
+.sketch-figure img{width:100%;height:auto;max-height:900px;object-fit:contain;border-radius:10px}
+.sketch-figure figcaption{padding:12px 8px 4px;color:#555;font-size:.85rem}
+@media(max-width:850px){.artefact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.artefact-grid{grid-template-columns:1fr}.sketch-figure{padding:7px}}
