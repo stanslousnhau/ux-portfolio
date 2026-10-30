@@ -1160,3 +1160,8 @@ a:focus-visible,button:focus-visible{
 .case-page .wide-figure .deck-shot,
 .case-page .sketch-figure > img { margin-left: 0; margin-right: 0; }
 /* Keep images inside intentional split and gallery layouts in their existing side-by-side positions. */
+
+/* RISE low-fidelity interface exploration */
+.interface-exploration .lowfi-exploration-figure { margin: 2rem 0 0; width: 100%; }
+.interface-exploration .lowfi-exploration-figure .deck-shot { display: block; width: 100%; height: auto; object-fit: contain; }
+.interface-exploration .lowfi-exploration-figure figcaption { margin-top: .75rem; }
