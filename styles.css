@@ -1165,3 +1165,27 @@ a:focus-visible,button:focus-visible{
 .interface-exploration .lowfi-exploration-figure { margin: 2rem 0 0; width: 100%; }
 .interface-exploration .lowfi-exploration-figure .deck-shot { display: block; width: 100%; height: auto; object-fit: contain; }
 .interface-exploration .lowfi-exploration-figure figcaption { margin-top: .75rem; }
+
+/* Editorial readability pass: clearer line lengths, rhythm and hierarchy across case studies. */
+.case-page .case-section .wrap > p,
+.case-page .case-section .wrap > .lead,
+.case-page .case-section .case-lead > p { max-width: 72ch; line-height: 1.78; }
+.case-page .case-section .wrap > h2 { max-width: 22ch; line-height: 1.12; text-wrap: balance; }
+.case-page .case-section .eyebrow { margin-bottom: 14px; }
+.case-page .case-section .three-up,
+.case-page .case-section .decision-grid,
+.case-page .case-section .insight-grid { gap: 18px; margin-top: 28px; }
+.case-page .case-section .three-up article,
+.case-page .case-section .decision-grid article,
+.case-page .case-section .insight-grid article { padding: 26px; }
+.case-page .case-section figure { margin-top: 28px; margin-bottom: 28px; }
+.case-page .case-section figcaption { max-width: 72ch; line-height: 1.55; }
+.case-page .case-section li { line-height: 1.75; margin-bottom: 9px; }
+.case-page .case-section .note { max-width: 78ch; line-height: 1.65; }
+.case-page .case-section table { line-height: 1.55; }
+@media (max-width: 600px) {
+ .case-page .case-section .wrap > h2 { max-width: 100%; }
+ .case-page .case-section .three-up article,
+ .case-page .case-section .decision-grid article,
+ .case-page .case-section .insight-grid article { padding: 20px; }
+}
