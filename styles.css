@@ -1338,3 +1338,32 @@ a:focus-visible,button:focus-visible{
  .case-section-mobile-panel a{display:block;padding:9px 10px;border-left:2px solid transparent;color:#555;font-size:.8rem}
  .case-section-mobile-panel a[aria-current="location"]{color:#111;font-weight:800;border-left-color:#111;background:#f1f1f1}
 }
+
+
+/* Readability pass: clearer measure, spacing and hierarchy across case studies */
+.case-section .wrap{max-width:1080px}
+.case-section p,.case-section li,.case-section .lead{font-size:1rem;line-height:1.75}
+.case-section p{max-width:74ch;margin-top:14px;margin-bottom:18px}
+.case-section h2{max-width:24ch;line-height:1.12!important;text-wrap:pretty}
+.case-section h3{line-height:1.25;text-wrap:pretty}
+.case-section .eyebrow{margin-bottom:14px;letter-spacing:.12em}
+.case-section ul.clean-list{max-width:72ch;line-height:1.8}
+.case-section .case-lead{max-width:74ch}
+.case-section figure{margin-block:28px}
+@media(max-width:700px){.case-section{padding:48px 0!important}.case-section h2{font-size:clamp(1.85rem,7vw,2.35rem)!important;line-height:1.12!important}.case-section p,.case-section li,.case-section .lead{font-size:.97rem;line-height:1.7}.case-section .wrap{width:min(calc(100% - 36px),var(--max))}}
+
+/* RISE research evidence: readable, source-labelled statistics instead of a slide screenshot */
+.rise-evidence-visual{margin-top:34px;padding:28px;border:1px solid var(--line);border-radius:18px;background:#090b10}
+.rise-evidence-intro>span,.rise-unemployment-chart>div:first-child>span{font-size:.68rem;letter-spacing:.14em;font-weight:800;color:#aeb1b9}
+.rise-evidence-intro p{max-width:760px;color:#aeb1b9;font-size:.88rem;margin:10px 0 22px}
+.rise-stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.rise-stat-card{padding:22px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.025);min-width:0}
+.rise-stat-card>strong{display:block;font-size:clamp(2.5rem,5vw,4rem);line-height:1;letter-spacing:-.06em;color:#fff;font-weight:750}
+.rise-stat-card h3{font-size:1rem;margin:14px 0 7px;color:#fff}
+.rise-stat-card p{font-size:.86rem;color:#c0c2c9;margin:0 0 15px}
+.rise-stat-card small{display:block;padding-top:12px;border-top:1px solid var(--line);font-size:.7rem;line-height:1.5;color:#898d98}
+.rise-unemployment-chart{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center;margin-top:16px;padding:24px;border:1px solid var(--line)}
+.rise-unemployment-chart h3{font-size:1.35rem;line-height:1.15;margin:12px 0 7px}.rise-unemployment-chart p{color:#9296a1;font-size:.78rem;margin:0}
+.rise-chart-plot{display:grid;gap:15px}.rise-chart-row{display:grid;grid-template-columns:78px minmax(60px,1fr) 58px;align-items:center;gap:10px;font-size:.78rem;color:#c4c6cd}.rise-chart-row b{font-size:.82rem;color:#fff;text-align:right}.rise-chart-track{height:13px;background:#242730;overflow:hidden}.rise-chart-track i{display:block;height:100%;background:#d7d9df}.rise-chart-change{justify-self:end;color:#fff;font-size:.8rem;font-weight:700;letter-spacing:.02em}
+.rise-source-note{margin:18px 0 0!important;color:#858995!important;font-size:.72rem!important;line-height:1.6}
+@media(max-width:700px){.rise-evidence-visual{padding:18px}.rise-stat-grid{grid-template-columns:1fr}.rise-unemployment-chart{grid-template-columns:1fr;gap:20px;padding:18px}.rise-chart-row{grid-template-columns:68px minmax(45px,1fr) 54px}.rise-stat-card{padding:18px}}
