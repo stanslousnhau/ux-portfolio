@@ -1367,3 +1367,22 @@ a:focus-visible,button:focus-visible{
 .rise-chart-plot{display:grid;gap:15px}.rise-chart-row{display:grid;grid-template-columns:78px minmax(60px,1fr) 58px;align-items:center;gap:10px;font-size:.78rem;color:#c4c6cd}.rise-chart-row b{font-size:.82rem;color:#fff;text-align:right}.rise-chart-track{height:13px;background:#242730;overflow:hidden}.rise-chart-track i{display:block;height:100%;background:#d7d9df}.rise-chart-change{justify-self:end;color:#fff;font-size:.8rem;font-weight:700;letter-spacing:.02em}
 .rise-source-note{margin:18px 0 0!important;color:#858995!important;font-size:.72rem!important;line-height:1.6}
 @media(max-width:700px){.rise-evidence-visual{padding:18px}.rise-stat-grid{grid-template-columns:1fr}.rise-unemployment-chart{grid-template-columns:1fr;gap:20px;padding:18px}.rise-chart-row{grid-template-columns:68px minmax(45px,1fr) 54px}.rise-stat-card{padding:18px}}
+
+/* RISE statistics contrast fix: dark text on light surfaces for clear reading */
+.rise-evidence-visual{background:#f2f2f2!important;border:1px solid #c9c9c9!important;color:#171717!important}
+.rise-evidence-intro>span,.rise-unemployment-chart>div:first-child>span{color:#303030!important;font-weight:900!important}
+.rise-evidence-intro p{color:#303030!important}
+.rise-stat-card{background:#fff!important;border:1px solid #b8b8b8!important}
+.rise-stat-card>strong{color:#111!important}
+.rise-stat-card h3{color:#111!important}
+.rise-stat-card p{color:#292929!important}
+.rise-stat-card small{color:#3e3e3e!important;border-top:1px solid #c9c9c9!important;font-size:.76rem!important;font-weight:550!important}
+.rise-unemployment-chart{background:#fff!important;border:1px solid #b8b8b8!important}
+.rise-unemployment-chart h3{color:#111!important}
+.rise-unemployment-chart p{color:#383838!important}
+.rise-chart-row{color:#242424!important;font-weight:650!important}
+.rise-chart-row b{color:#111!important}
+.rise-chart-track{background:#d5d5d5!important}
+.rise-chart-track i{background:#222!important}
+.rise-chart-change{color:#111!important}
+.rise-source-note{color:#333!important;font-size:.78rem!important;font-weight:550!important}
