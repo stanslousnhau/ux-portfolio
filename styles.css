@@ -1476,3 +1476,9 @@ a:focus-visible,button:focus-visible{
 .rise-story-footer{margin-top:17px;padding:13px 16px;background:#19366f;border-left:4px solid #80a6ff;color:#fff;font-weight:700;line-height:1.45;border-radius:5px}
 @media(max-width:760px){.rise-story-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rise-story-panel p{font-size:.8rem;padding:9px 10px}.rise-story-head{padding:8px;font-size:.8rem}}
 @media(max-width:480px){.rise-story-grid{grid-template-columns:1fr}.rise-storyboard-slide{padding:22px 14px 42px}.rise-storyboard-slide h2{font-size:1.65rem}}
+
+/* RISE storyboard closing context and research goal */
+.rise-story-footer p{margin:0 0 12px;}
+.rise-story-research-goal{margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.28);display:grid;gap:8px;}
+.rise-story-research-goal span{font-size:.68rem;letter-spacing:.14em;font-weight:800;opacity:.8;}
+.rise-story-research-goal strong{font-size:1.02rem;line-height:1.45;}
