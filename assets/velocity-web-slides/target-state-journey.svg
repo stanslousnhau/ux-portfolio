@@ -2,11 +2,12 @@
 <defs>
  <style>
   text{font-family:Inter,Arial,sans-serif;fill:#17243b}
-  .eyebrow{font-size:22px;font-weight:800;letter-spacing:3px;fill:#315ff4}
+  .eyebrow{font-size:22px;font-weight:800;letter-spacing:3px;fill:#f07824}
   .title{font-size:54px;font-weight:800;letter-spacing:-1px}
   .subtitle{font-size:23px;fill:#5c687c}
   .stage{font-size:22px;font-weight:800;fill:#fff}
-  .rowlabel{font-size:18px;font-weight:800;letter-spacing:1px;fill:#315ff4}
+  .stage-sub{font-size:18px;fill:#fff;font-weight:600}
+  .rowlabel{font-size:18px;font-weight:800;letter-spacing:1px;fill:#f07824}
   .cell{font-size:19px;fill:#27364e}
   .emotion{font-size:20px;font-weight:700;fill:#27364e}
   .muted{font-size:17px;fill:#69758a}
@@ -22,17 +23,17 @@
 <rect x="76" y="220" width="1768" height="590" rx="14" fill="#fff" stroke="#dce3ee" stroke-width="2"/>
 <!-- left label rail -->
 <rect x="76" y="220" width="190" height="590" rx="14" fill="#f3f6fc"/>
-<rect x="252" y="220" width="1592" height="92" fill="#142b60"/>
+<rect x="252" y="220" width="1592" height="92" fill="#e87522"/>
 <!-- column separators -->
 <path d="M266 220V810 M583 220V810 M900 220V810 M1217 220V810 M1534 220V810" class="grid"/>
 <path d="M76 312H1844 M76 438H1844 M76 564H1844 M76 690H1844" class="grid"/>
 
 <!-- stage headers -->
-<text x="284" y="258" class="stage">01 · ARRIVE</text><text x="284" y="287" font-size="18" fill="#dce6ff">At the station</text>
-<text x="601" y="258" class="stage">02 · PREPARE</text><text x="601" y="287" font-size="18" fill="#dce6ff">Get ready to pay</text>
-<text x="918" y="258" class="stage">03 · PURCHASE</text><text x="918" y="287" font-size="18" fill="#dce6ff">Fuel and earn</text>
-<text x="1235" y="258" class="stage">04 · USE REWARDS</text><text x="1235" y="287" font-size="18" fill="#dce6ff">Choose what works</text>
-<text x="1552" y="258" class="stage">05 · THANK</text><text x="1552" y="287" font-size="18" fill="#dce6ff">Tip and finish</text>
+<text x="284" y="258" class="stage">01 · ARRIVE</text><text x="284" y="287" class="stage-sub">At the station</text>
+<text x="601" y="258" class="stage">02 · PREPARE</text><text x="601" y="287" class="stage-sub">Get ready to pay</text>
+<text x="918" y="258" class="stage">03 · PURCHASE</text><text x="918" y="287" class="stage-sub">Fuel and earn</text>
+<text x="1235" y="258" class="stage">04 · USE REWARDS</text><text x="1235" y="287" class="stage-sub">Choose what works</text>
+<text x="1552" y="258" class="stage">05 · THANK</text><text x="1552" y="287" class="stage-sub">Tip and finish</text>
 
 <!-- row labels -->
 <text x="96" y="367" class="rowlabel">USER</text><text x="96" y="392" class="rowlabel">ACTIONS</text>
@@ -77,9 +78,9 @@
 <path d="M310 974H1800 M310 926H1800 M310 878H1800" stroke="#e0e6f0" stroke-width="2" stroke-dasharray="5 8"/>
 <text x="278" y="980" class="muted" text-anchor="end">Low</text><text x="278" y="884" class="muted" text-anchor="end">High</text>
 <!-- rising emotional line -->
-<path d="M360 964 C470 954 500 954 640 946 S800 930 930 920 S1100 904 1220 896 S1450 876 1570 868 S1730 856 1780 850" fill="none" stroke="#315ff4" stroke-width="7" stroke-linecap="round"/>
-<path d="M360 964 C470 954 500 954 640 946 S800 930 930 920 S1100 904 1220 896 S1450 876 1570 868 S1730 856 1780 850 L1780 1000 L360 1000Z" fill="#315ff4" opacity=".08"/>
-<g fill="#fff" stroke="#315ff4" stroke-width="5">
+<path d="M360 964 C470 954 500 954 640 946 S800 930 930 920 S1100 904 1220 896 S1450 876 1570 868 S1730 856 1780 850" fill="none" stroke="#f07824" stroke-width="7" stroke-linecap="round"/>
+<path d="M360 964 C470 954 500 954 640 946 S800 930 930 920 S1100 904 1220 896 S1450 876 1570 868 S1730 856 1780 850 L1780 1000 L360 1000Z" fill="#f07824" opacity=".08"/>
+<g fill="#fff" stroke="#f07824" stroke-width="5">
  <circle cx="360" cy="964" r="10"/><circle cx="710" cy="941" r="10"/><circle cx="1060" cy="912" r="10"/><circle cx="1410" cy="883" r="10"/><circle cx="1780" cy="850" r="10"/>
 </g>
 <g class="emotion" text-anchor="middle">
