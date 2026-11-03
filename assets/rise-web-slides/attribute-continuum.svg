@@ -2,11 +2,11 @@
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f8fc"/><stop offset="1" stop-color="#eef2fb"/></linearGradient><style>
 text{font-family:Inter,Arial,sans-serif;fill:#14213d}.eyebrow{font-size:27px;font-weight:800;letter-spacing:3px;fill:#3268f5}.title{font-size:58px;font-weight:800;letter-spacing:-1.5px}.sub{font-size:27px;fill:#52617b}.label{font-size:25px;font-weight:800;letter-spacing:1.4px;fill:#3268f5}.body{font-size:27px;fill:#43516a}.small{font-size:22px;fill:#596780}.line{stroke:#cbd5e8;stroke-width:4}.end{font-size:21px;font-weight:700;fill:#52617b;letter-spacing:.5px}
 </style></defs>
-<rect width="1920" height="1500" fill="url(#bg)"/>
+<rect width="1920" height="1500" fill="#ffffff"/>
 <text x="100" y="100" class="eyebrow">RISE · RESEARCH SYNTHESIS</text>
 <text x="100" y="185" class="title">From recurring behaviours to the “Cautious Provider”</text>
 <text x="100" y="238" class="sub">A working archetype shaped by the pressures, priorities and decision patterns identified in secondary research.</text>
-<rect x="80" y="285" width="1760" height="1065" rx="28" fill="#fff" stroke="#dce3f0" stroke-width="2"/>
+<rect x="0" y="0" width="1920" height="1500" fill="#ffffff"/>
 <text x="135" y="365" class="eyebrow">ATTRIBUTE CONTINUUM</text>
 <text x="135" y="415" class="small">The synthesis moves from short-term coping towards careful, security-seeking financial behaviour.</text>
 <text x="135" y="500" class="label">TIME HORIZON</text>
@@ -14,38 +14,29 @@ text{font-family:Inter,Arial,sans-serif;fill:#14213d}.eyebrow{font-size:27px;fon
 <text x="1740" y="500" text-anchor="end" class="body">Plans around payday and upcoming commitments</text>
 <line x1="440" y1="532" x2="1740" y2="532" class="line"/>
 <circle cx="1454.0" cy="532" r="16" fill="#3268f5" stroke="#dce7ff" stroke-width="9"/>
-<text x="440" y="572" class="end">COPING</text>
-<text x="1740" y="572" text-anchor="end" class="end">CAUTIOUS / PREPARED</text>
 <text x="135" y="655" class="label">RISK RESPONSE</text>
 <text x="440" y="655" class="body">Uses money when it is available</text>
 <text x="1740" y="655" text-anchor="end" class="body">Protects a small reserve against surprises</text>
 <line x1="440" y1="687" x2="1740" y2="687" class="line"/>
 <circle cx="1532.0" cy="687" r="16" fill="#3268f5" stroke="#dce7ff" stroke-width="9"/>
-<text x="440" y="727" class="end">COPING</text>
-<text x="1740" y="727" text-anchor="end" class="end">CAUTIOUS / PREPARED</text>
 <text x="135" y="810" class="label">DECISION STYLE</text>
 <text x="440" y="810" class="body">Acts with limited visibility</text>
 <text x="1740" y="810" text-anchor="end" class="body">Wants clear information before committing</text>
 <line x1="440" y1="842" x2="1740" y2="842" class="line"/>
 <circle cx="1480.0" cy="842" r="16" fill="#3268f5" stroke="#dce7ff" stroke-width="9"/>
-<text x="440" y="882" class="end">COPING</text>
-<text x="1740" y="882" text-anchor="end" class="end">CAUTIOUS / PREPARED</text>
 <text x="135" y="965" class="label">SUPPORT NEED</text>
 <text x="440" y="965" class="body">Relies on trial and error</text>
 <text x="1740" y="965" text-anchor="end" class="body">Values reassurance and practical guidance</text>
 <line x1="440" y1="997" x2="1740" y2="997" class="line"/>
 <circle cx="1415.0" cy="997" r="16" fill="#3268f5" stroke="#dce7ff" stroke-width="9"/>
-<text x="440" y="1037" class="end">COPING</text>
-<text x="1740" y="1037" text-anchor="end" class="end">CAUTIOUS / PREPARED</text>
 <text x="135" y="1120" class="label">MOTIVATION</text>
 <text x="440" y="1120" class="body">Wants to get through today</text>
 <text x="1740" y="1120" text-anchor="end" class="body">Wants to provide reliably and stay in control</text>
 <line x1="440" y1="1152" x2="1740" y2="1152" class="line"/>
 <circle cx="1584.0" cy="1152" r="16" fill="#3268f5" stroke="#dce7ff" stroke-width="9"/>
-<text x="440" y="1192" class="end">COPING</text>
-<text x="1740" y="1192" text-anchor="end" class="end">CAUTIOUS / PREPARED</text>
 <rect x="135" y="1270" width="1650" height="1.5" fill="#e4e9f2"/>
-<text x="135" y="1320" font-size="34" font-weight="800" fill="#14213d">Archetype: The Cautious Provider</text>
-<text x="135" y="1365" font-size="25" fill="#43516a">A first-job earner who wants to meet responsibilities, protect a modest buffer and feel confident before spending.</text>
-<text x="100" y="1445" class="small">Interpretation, not a measured segmentation: continuum positions are a design hypothesis to validate with first-job earners.</text>
+<text x="135" y="1320" font-size="38" font-weight="800" fill="#14213d">The resulting archetype: The Cautious Provider</text>
+<text x="135" y="1370" font-size="26" fill="#43516a">The continuum points to someone who plans around commitments, protects a small reserve, seeks clarity and reassurance,</text>
+<text x="135" y="1410" font-size="26" fill="#43516a">and is motivated to provide reliably while staying in control. That combination is why we call this archetype the Cautious Provider.</text>
+<text x="100" y="1445" class="small">Interpretation, not a measured segmentation: this is a design hypothesis to validate with first-job earners.</text>
 </svg>
