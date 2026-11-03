@@ -1,2 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f8fc"/><stop offset="1" stop-color="#eef2fb"/></linearGradient><style>text{font-family:Inter,Arial,sans-serif;fill:#14213d}.eyebrow{font-size:24px;font-weight:700;letter-spacing:4px;fill:#3268f5}.title{font-size:62px;font-weight:800;letter-spacing:-1.5px}.sub{font-size:27px;fill:#52617b}.head{font-size:26px;font-weight:800}.body{font-size:23px;fill:#43516a}.small{font-size:20px;fill:#596780}.label{font-size:19px;font-weight:800;letter-spacing:1.5px;fill:#3268f5}.line{stroke:#cbd5e8;stroke-width:3}.blue{fill:#3268f5}.white{fill:#fff}.muted{fill:#64728b}</style></defs><rect width="1920" height="1080" fill="url(#bg)"/><text x="100" y="95" class="eyebrow">VELOCITY · TARGET-STATE EXPERIENCE</text><text x="100" y="180" class="title">A rewards journey built around a real fuel stop</text><text x="100" y="235" class="sub">The intended experience: make rewards visible, usable in the moment and flexible enough to include a thank-you to the attendant.</text>
-<rect x="100" y="310" width="326" height="565" rx="22" fill="#fff" stroke="#dbe3f0" stroke-width="2"/><rect x="100" y="310" width="326" height="74" rx="22" fill="#132b61"/><rect x="100" y="362" width="326" height="22" fill="#132b61"/><text x="124" y="357" font-size="20" font-weight="800" fill="#fff">01 · ARRIVE</text><text x="124" y="432" class="head">Arrive at station</text><text x="124" y="480" class="label">USER ACTIONS</text><foreignObject x="124" y="494" width="278" height="105"><div xmlns="http://www.w3.org/1999/xhtml" style="font:21px Arial,sans-serif;color:#43516a;line-height:1.35">Open the app; check nearby station and current rewards balance.</div></foreignObject><text x="124" y="630" class="label">TOUCHPOINTS</text><foreignObject x="124" y="644" width="278" height="66"><div xmlns="http://www.w3.org/1999/xhtml" style="font:20px Arial,sans-serif;color:#43516a;line-height:1.3">App home · station signage</div></foreignObject><text x="124" y="730" class="label">MOMENT OF TRUTH</text><foreignObject x="124" y="744" width="278" height="72"><div xmlns="http://www.w3.org/1999/xhtml" style="font:19px Arial,sans-serif;color:#43516a;line-height:1.28">Can I quickly understand what I have and what I can do here?</div></foreignObject><text x="124" y="845" font-size="34">🙂</text><text x="180" y="842" class="head">Oriented</text><rect x="448" y="310" width="326" height="565" rx="22" fill="#fff" stroke="#dbe3f0" stroke-width="2"/><rect x="448" y="310" width="326" height="74" rx="22" fill="#132b61"/><rect x="448" y="362" width="326" height="22" fill="#132b61"/><text x="472" y="357" font-size="20" font-weight="800" fill="#fff">02 · PREPARE</text><text x="472" y="432" class="head">Get ready to pay</text><text x="472" y="480" class="label">USER ACTIONS</text><foreignObject x="472" y="494" width="278" height="105"><div xmlns="http://www.w3.org/1999/xhtml" style="font:21px Arial,sans-serif;color:#43516a;line-height:1.35">Choose fuel amount and preferred payment method; present app or scan code.</div></foreignObject><text x="472" y="630" class="label">TOUCHPOINTS</text><foreignObject x="472" y="644" width="278" height="66"><div xmlns="http://www.w3.org/1999/xhtml" style="font:20px Arial,sans-serif;color:#43516a;line-height:1.3">App payment · pump · attendant</div></foreignObject><text x="472" y="730" class="label">MOMENT OF TRUTH</text><foreignObject x="472" y="744" width="278" height="72"><div xmlns="http://www.w3.org/1999/xhtml" style="font:19px Arial,sans-serif;color:#43516a;line-height:1.28">Does payment work with the method I prefer, without extra friction?</div></foreignObject><text x="472" y="845" font-size="34">😐</text><text x="528" y="842" class="head">Focused</text><rect x="796" y="310" width="326" height="565" rx="22" fill="#fff" stroke="#dbe3f0" stroke-width="2"/><rect x="796" y="310" width="326" height="74" rx="22" fill="#132b61"/><rect x="796" y="362" width="326" height="22" fill="#132b61"/><text x="820" y="357" font-size="20" font-weight="800" fill="#fff">03 · EARN</text><text x="820" y="432" class="head">Complete fuel purchase</text><text x="820" y="480" class="label">USER ACTIONS</text><foreignObject x="820" y="494" width="278" height="105"><div xmlns="http://www.w3.org/1999/xhtml" style="font:21px Arial,sans-serif;color:#43516a;line-height:1.35">Confirm transaction and see points/rewards update.</div></foreignObject><text x="820" y="630" class="label">TOUCHPOINTS</text><foreignObject x="820" y="644" width="278" height="66"><div xmlns="http://www.w3.org/1999/xhtml" style="font:20px Arial,sans-serif;color:#43516a;line-height:1.3">POS · app transaction receipt</div></foreignObject><text x="820" y="730" class="label">MOMENT OF TRUTH</text><foreignObject x="820" y="744" width="278" height="72"><div xmlns="http://www.w3.org/1999/xhtml" style="font:19px Arial,sans-serif;color:#43516a;line-height:1.28">Are my rewards credited accurately and immediately?</div></foreignObject><text x="820" y="845" font-size="34">🙂</text><text x="876" y="842" class="head">Reassured</text><rect x="1144" y="310" width="326" height="565" rx="22" fill="#fff" stroke="#dbe3f0" stroke-width="2"/><rect x="1144" y="310" width="326" height="74" rx="22" fill="#132b61"/><rect x="1144" y="362" width="326" height="22" fill="#132b61"/><text x="1168" y="357" font-size="20" font-weight="800" fill="#fff">04 · USE VALUE</text><text x="1168" y="432" class="head">Choose how to use rewards</text><text x="1168" y="480" class="label">USER ACTIONS</text><foreignObject x="1168" y="494" width="278" height="105"><div xmlns="http://www.w3.org/1999/xhtml" style="font:21px Arial,sans-serif;color:#43516a;line-height:1.35">Review balance; redeem, save or cash out where eligible.</div></foreignObject><text x="1168" y="630" class="label">TOUCHPOINTS</text><foreignObject x="1168" y="644" width="278" height="66"><div xmlns="http://www.w3.org/1999/xhtml" style="font:20px Arial,sans-serif;color:#43516a;line-height:1.3">Rewards wallet · redemption options</div></foreignObject><text x="1168" y="730" class="label">MOMENT OF TRUTH</text><foreignObject x="1168" y="744" width="278" height="72"><div xmlns="http://www.w3.org/1999/xhtml" style="font:19px Arial,sans-serif;color:#43516a;line-height:1.28">Can I use value in a way that suits my needs right now?</div></foreignObject><text x="1168" y="845" font-size="34">😊</text><text x="1224" y="842" class="head">In control</text><rect x="1492" y="310" width="326" height="565" rx="22" fill="#fff" stroke="#dbe3f0" stroke-width="2"/><rect x="1492" y="310" width="326" height="74" rx="22" fill="#132b61"/><rect x="1492" y="362" width="326" height="22" fill="#132b61"/><text x="1516" y="357" font-size="20" font-weight="800" fill="#fff">05 · THANK</text><text x="1516" y="432" class="head">Tip attendant &amp; finish</text><text x="1516" y="480" class="label">USER ACTIONS</text><foreignObject x="1516" y="494" width="278" height="105"><div xmlns="http://www.w3.org/1999/xhtml" style="font:21px Arial,sans-serif;color:#43516a;line-height:1.35">Choose a tip amount, confirm, and receive a clear confirmation.</div></foreignObject><text x="1516" y="630" class="label">TOUCHPOINTS</text><foreignObject x="1516" y="644" width="278" height="66"><div xmlns="http://www.w3.org/1999/xhtml" style="font:20px Arial,sans-serif;color:#43516a;line-height:1.3">Pay-it-forward flow · attendant confirmation</div></foreignObject><text x="1516" y="730" class="label">MOMENT OF TRUTH</text><foreignObject x="1516" y="744" width="278" height="72"><div xmlns="http://www.w3.org/1999/xhtml" style="font:19px Arial,sans-serif;color:#43516a;line-height:1.28">Did my thank-you reach the right person, and is it clear that it did?</div></foreignObject><text x="1516" y="845" font-size="34">🥰</text><text x="1572" y="842" class="head">Appreciative</text><rect x="100" y="915" width="1720" height="85" rx="18" fill="#e4ebff"/><text x="130" y="968" class="head">Experience principle</text><text x="440" y="968" class="body">Every step should reduce uncertainty and give customers visible control over their rewards and choices.</text><text x="100" y="1040" class="small">Target-state hypothesis for design exploration; validate task completion, payment compatibility, reward timing and tipping operations in station-based research.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <style>
+  text{font-family:Inter,Arial,sans-serif;fill:#17243b}
+  .eyebrow{font-size:22px;font-weight:800;letter-spacing:3px;fill:#315ff4}
+  .title{font-size:54px;font-weight:800;letter-spacing:-1px}
+  .subtitle{font-size:23px;fill:#5c687c}
+  .stage{font-size:22px;font-weight:800;fill:#fff}
+  .rowlabel{font-size:18px;font-weight:800;letter-spacing:1px;fill:#315ff4}
+  .cell{font-size:19px;fill:#27364e}
+  .emotion{font-size:20px;font-weight:700;fill:#27364e}
+  .muted{font-size:17px;fill:#69758a}
+  .grid{stroke:#dce3ee;stroke-width:2}
+ </style>
+</defs>
+<rect width="1920" height="1080" fill="#ffffff"/>
+<text x="76" y="66" class="eyebrow">VELOCITY · TARGET-STATE USER JOURNEY</text>
+<text x="76" y="132" class="title">A smoother fuel stop, with rewards that feel useful</text>
+<text x="76" y="176" class="subtitle">The intended end-to-end experience, from arriving at the station to recognising the attendant.</text>
+
+<!-- table frame -->
+<rect x="76" y="220" width="1768" height="590" rx="14" fill="#fff" stroke="#dce3ee" stroke-width="2"/>
+<!-- left label rail -->
+<rect x="76" y="220" width="190" height="590" rx="14" fill="#f3f6fc"/>
+<rect x="252" y="220" width="1592" height="92" fill="#142b60"/>
+<!-- column separators -->
+<path d="M266 220V810 M583 220V810 M900 220V810 M1217 220V810 M1534 220V810" class="grid"/>
+<path d="M76 312H1844 M76 438H1844 M76 564H1844 M76 690H1844" class="grid"/>
+
+<!-- stage headers -->
+<text x="284" y="258" class="stage">01 · ARRIVE</text><text x="284" y="287" font-size="18" fill="#dce6ff">At the station</text>
+<text x="601" y="258" class="stage">02 · PREPARE</text><text x="601" y="287" font-size="18" fill="#dce6ff">Get ready to pay</text>
+<text x="918" y="258" class="stage">03 · PURCHASE</text><text x="918" y="287" font-size="18" fill="#dce6ff">Fuel and earn</text>
+<text x="1235" y="258" class="stage">04 · USE REWARDS</text><text x="1235" y="287" font-size="18" fill="#dce6ff">Choose what works</text>
+<text x="1552" y="258" class="stage">05 · THANK</text><text x="1552" y="287" font-size="18" fill="#dce6ff">Tip and finish</text>
+
+<!-- row labels -->
+<text x="96" y="367" class="rowlabel">USER</text><text x="96" y="392" class="rowlabel">ACTIONS</text>
+<text x="96" y="493" class="rowlabel">TOUCHPOINTS</text>
+<text x="96" y="619" class="rowlabel">MOMENT OF</text><text x="96" y="644" class="rowlabel">TRUTH</text>
+<text x="96" y="746" class="rowlabel">DESIRED</text><text x="96" y="771" class="rowlabel">OUTCOME</text>
+
+<!-- actions -->
+<g class="cell">
+ <text x="284" y="354"><tspan x="284">Open the app and</tspan><tspan x="284" dy="25">check the rewards</tspan><tspan x="284" dy="25">balance and station.</tspan></text>
+ <text x="601" y="354"><tspan x="601">Select fuel amount</tspan><tspan x="601" dy="25">and preferred payment</tspan><tspan x="601" dy="25">method.</tspan></text>
+ <text x="918" y="354"><tspan x="918">Pay for fuel and</tspan><tspan x="918" dy="25">check that points or</tspan><tspan x="918" dy="25">rewards are credited.</tspan></text>
+ <text x="1235" y="354"><tspan x="1235">Review the balance;</tspan><tspan x="1235" dy="25">redeem, save or cash</tspan><tspan x="1235" dy="25">out where eligible.</tspan></text>
+ <text x="1552" y="354"><tspan x="1552">Choose a tip amount,</tspan><tspan x="1552" dy="25">confirm and check the</tspan><tspan x="1552" dy="25">thank-you is received.</tspan></text>
+</g>
+<!-- touchpoints -->
+<g class="cell">
+ <text x="284" y="480"><tspan x="284">App home</tspan><tspan x="284" dy="25">Station signage</tspan></text>
+ <text x="601" y="480"><tspan x="601">App payment</tspan><tspan x="601" dy="25">Pump · attendant</tspan></text>
+ <text x="918" y="480"><tspan x="918">Payment terminal</tspan><tspan x="918" dy="25">Digital receipt</tspan></text>
+ <text x="1235" y="480"><tspan x="1235">Rewards wallet</tspan><tspan x="1235" dy="25">Redemption options</tspan></text>
+ <text x="1552" y="480"><tspan x="1552">Pay-it-forward flow</tspan><tspan x="1552" dy="25">Attendant confirmation</tspan></text>
+</g>
+<!-- moments of truth -->
+<g class="cell">
+ <text x="284" y="606"><tspan x="284">Can I quickly see</tspan><tspan x="284" dy="25">what I have and</tspan><tspan x="284" dy="25">what is available?</tspan></text>
+ <text x="601" y="606"><tspan x="601">Can I pay my way</tspan><tspan x="601" dy="25">without extra steps</tspan><tspan x="601" dy="25">or confusion?</tspan></text>
+ <text x="918" y="606"><tspan x="918">Are my rewards</tspan><tspan x="918" dy="25">credited accurately</tspan><tspan x="918" dy="25">and promptly?</tspan></text>
+ <text x="1235" y="606"><tspan x="1235">Can I use the value</tspan><tspan x="1235" dy="25">in a way that fits</tspan><tspan x="1235" dy="25">my needs?</tspan></text>
+ <text x="1552" y="606"><tspan x="1552">Did my tip reach</tspan><tspan x="1552" dy="25">the right person,</tspan><tspan x="1552" dy="25">with confirmation?</tspan></text>
+</g>
+<!-- outcome -->
+<g class="cell" font-weight="700">
+ <text x="284" y="754">Oriented</text><text x="601" y="754">Ready</text><text x="918" y="754">Reassured</text><text x="1235" y="754">In control</text><text x="1552" y="754">Appreciative</text>
+</g>
+
+<!-- emotional journey -->
+<text x="78" y="866" class="eyebrow">EMOTIONAL JOURNEY</text>
+<text x="78" y="900" class="muted">Customer confidence</text>
+<rect x="266" y="840" width="1578" height="178" rx="14" fill="#f7f9fd" stroke="#e1e7f1" stroke-width="2"/>
+<!-- chart grid -->
+<path d="M310 974H1800 M310 926H1800 M310 878H1800" stroke="#e0e6f0" stroke-width="2" stroke-dasharray="5 8"/>
+<text x="278" y="980" class="muted" text-anchor="end">Low</text><text x="278" y="884" class="muted" text-anchor="end">High</text>
+<!-- rising emotional line -->
+<path d="M360 964 C470 954 500 954 640 946 S800 930 930 920 S1100 904 1220 896 S1450 876 1570 868 S1730 856 1780 850" fill="none" stroke="#315ff4" stroke-width="7" stroke-linecap="round"/>
+<path d="M360 964 C470 954 500 954 640 946 S800 930 930 920 S1100 904 1220 896 S1450 876 1570 868 S1730 856 1780 850 L1780 1000 L360 1000Z" fill="#315ff4" opacity=".08"/>
+<g fill="#fff" stroke="#315ff4" stroke-width="5">
+ <circle cx="360" cy="964" r="10"/><circle cx="710" cy="941" r="10"/><circle cx="1060" cy="912" r="10"/><circle cx="1410" cy="883" r="10"/><circle cx="1780" cy="850" r="10"/>
+</g>
+<g class="emotion" text-anchor="middle">
+ <text x="360" y="946">Unsure</text><text x="710" y="922">Focused</text><text x="1060" y="893">Reassured</text><text x="1410" y="864">Confident</text><text x="1780" y="831">Appreciated</text>
+</g>
+<text x="78" y="1050" class="muted">Target-state hypothesis: the emotional curve represents the intended direction of the experience, not measured user-research data.</text>
+</svg>
