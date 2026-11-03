@@ -1430,3 +1430,9 @@ a:focus-visible,button:focus-visible{
   .velocity-slide-list,
   .rise-slide-list { gap: 28px; }
 }
+
+/* RISE artefact presentation: preserve original sketch photograph and high-fidelity montage proportions */
+.rise-sketch-frame{background:transparent!important;border:0!important;box-shadow:none!important;display:flex;justify-content:center;align-items:center;padding:0;overflow:visible}
+.rise-sketch-frame img{width:auto!important;max-width:100%;height:auto!important;max-height:82vh;aspect-ratio:auto!important;object-fit:contain!important;background:transparent;box-shadow:0 10px 30px rgba(17,32,69,.12)}
+.rise-highfi-frame{background:#0b1b3e!important}
+.rise-highfi-frame img{aspect-ratio:auto!important;object-fit:contain!important;width:100%;height:auto!important}
