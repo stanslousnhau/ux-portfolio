@@ -3,10 +3,7 @@
 text{font-family:Inter,Arial,sans-serif;fill:#14213d}.eyebrow{font-size:27px;font-weight:800;letter-spacing:3px;fill:#3268f5}.title{font-size:58px;font-weight:800;letter-spacing:-1.5px}.sub{font-size:27px;fill:#52617b}.label{font-size:25px;font-weight:800;letter-spacing:1.4px;fill:#3268f5}.body{font-size:27px;fill:#43516a}.small{font-size:22px;fill:#596780}.line{stroke:#cbd5e8;stroke-width:4}.end{font-size:21px;font-weight:700;fill:#52617b;letter-spacing:.5px}
 </style></defs>
 <rect width="1920" height="1500" fill="#ffffff"/>
-<text x="100" y="100" class="eyebrow">RISE · RESEARCH SYNTHESIS</text>
-<text x="100" y="185" class="title">From recurring behaviours to the “Cautious Provider”</text>
-<text x="100" y="238" class="sub">A working archetype shaped by the pressures, priorities and decision patterns identified in secondary research.</text>
-<rect x="0" y="0" width="1920" height="1500" fill="#ffffff"/>
+<g transform="translate(0,-180)">
 <text x="135" y="365" class="eyebrow">ATTRIBUTE CONTINUUM</text>
 <text x="135" y="415" class="small">The synthesis moves from short-term coping towards careful, security-seeking financial behaviour.</text>
 <text x="135" y="500" class="label">TIME HORIZON</text>
@@ -39,4 +36,6 @@ text{font-family:Inter,Arial,sans-serif;fill:#14213d}.eyebrow{font-size:27px;fon
 <text x="135" y="1370" font-size="26" fill="#43516a">The continuum points to someone who plans around commitments, protects a small reserve, seeks clarity and reassurance,</text>
 <text x="135" y="1410" font-size="26" fill="#43516a">and is motivated to provide reliably while staying in control. That combination is why we call this archetype the Cautious Provider.</text>
 <text x="100" y="1445" class="small">Interpretation, not a measured segmentation: this is a design hypothesis to validate with first-job earners.</text>
+
+</g>
 </svg>
