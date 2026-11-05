@@ -31,3 +31,8 @@ V39 updates: Velocity now features two side-by-side research-informed persona ar
 - Each PDF is embedded in its matching case study without editing or reformatting the source document, with a separate open-in-new-tab link.
 - Added a section side navigation to each case study. Links jump to the corresponding website sections; on smaller screens the navigation becomes a horizontally scrollable strip.
 - Retained the existing editable HTML case-study content and website assets.
+
+## V40 mobile case-study reading update
+- Replaced embedded PDF viewer controls with responsive, vertically tiled case-study page images.
+- Each tile scales to the available screen width; tapping a tile opens the original PDF in a new tab for zooming.
+- Removed the embedded viewer toolbar and its save/settings controls from the case-study pages.
