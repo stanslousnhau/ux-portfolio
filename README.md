@@ -36,3 +36,6 @@ V39 updates: Velocity now features two side-by-side research-informed persona ar
 - Replaced embedded PDF viewer controls with responsive, vertically tiled case-study page images.
 - Each tile scales to the available screen width; tapping a tile opens the original PDF in a new tab for zooming.
 - Removed the embedded viewer toolbar and its save/settings controls from the case-study pages.
+
+
+V41 PDF rendering update: desktop case-study pages now use the original PDF in a full-width native browser viewer. Mobile uses high-resolution, zero-gap raster slices generated directly from the original PDFs. This removes the visible spacing between slices and improves image sharpness/colour fidelity, including the RISE blue mockups.
