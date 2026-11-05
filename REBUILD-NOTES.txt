@@ -1,9 +1,0 @@
-PORTFOLIO CASE STUDY REBUILD
-
-This package is based on the original portfolio_rise_context_research_goal.zip. The original homepage, stylesheet, scripts, assets, slide images, PDFs, logo, navigation and existing project files are retained.
-
-Only enterprise-api.html, rise.html and velocity.html were updated. The latest separately supplied Velocity slide overview PDF was added as assets/Velocity_Rewards_MVP_Current_Slides.pdf and used as the source for the Velocity narrative. Each now has a concise eight-part narrative: Problem; Research method and thinking; Synthesis and insights; Collaboration and influence; Design direction; Solution and design decisions; Success and impact; Lessons learned and next steps.
-
-The original Enterprise API and RISE slide presentations are retained in expandable sections. The previous expanded Velocity export remains in the package assets, but the case-study page points to the latest supplied Velocity slide overview to avoid presenting conflicting versions as current.
-
-No project outcomes have been invented. Enterprise API is described as a collaborative discovery engagement; RISE and Velocity are clearly identified as individual self-directed concepts. Proposed measures are labelled as proposed, not achieved.
