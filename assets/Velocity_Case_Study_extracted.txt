@@ -12,8 +12,8 @@ flexible redemption, intentional tipping.
 
   Johannesburg pilot                    Card-agnostic              Cashless
 
-ROLE                                     DESIGNER                             SCOPE
-UX Designer, individual                  Stanslous Nhau                       Audit → MVP → hi-fi UI
+ROLE                                         DESIGNER                           SCOPE
+UX Designer, individual                      Stanslous Nhau                     Audit → MVP → hi-fi UI
 S TAT U S
 Self-directed concept
 
@@ -22,13 +22,13 @@ Self-directed concept
 
 This case study covers
 
-  ✓ Problem & opportunity                              ✓ Process            ✓ Research & competitor audit                     ✓ Archetypes & persona
+  ✓ Problem & opportunity                              ✓ Process            ✓ Research & competitor audit                      ✓ Archetypes & persona
 
 
-  ✓ MVP definition                       ✓ Trade-offs                ✓ Design decisions                  ✓ Journey & digital flow                 ✓ Low fidelity
+  ✓ MVP definition                       ✓ Trade-offs                ✓ Design decisions                   ✓ Journey & digital flow                 ✓ Low fidelity
 
 
-  ✓ High fidelity                    ✓ Visual design system                     ✓ Success & impact                   ✓ Lessons & next steps
+  ✓ High fidelity                    ✓ Visual design system                      ✓ Success & impact                   ✓ Lessons & next steps
 
 
 
@@ -62,9 +62,9 @@ ABANDONED.
 02 · PROCESS
 
 HOW I WORKED.
-        1                                                                 2                                                            3
-      Discover                                                          Define                                                       Ideate
-      Competitor & market audit                                         Archetypes & hypotheses                                      MVP definition & trade-offs
+        1                                                                  2                                                            3
+      Discover                                                           Define                                                       Ideate
+      Competitor & market audit                                          Archetypes & hypotheses                                      MVP definition & trade-offs
 
 
 
@@ -82,26 +82,26 @@ VISIBILITY DRIVES ENGAGEMENT.
 Competitor and market audit in place of interviews. Findings are directional, not
 validated.
 
-   PROGRAMME                                 HIGHLIGHTS                                             CA R D -                  CAS H L E S S , I N S TA N T              B U I LT- I N
-                                                                                                  AG N O S T I C                 REDEMPTION                             TIPPING
+   PROGRAMME                                 HIGHLIGHTS                                              CA R D -                  CAS H L E S S , I N S TA N T              B U I LT- I N
+                                                                                                   AG N O S T I C                 REDEMPTION                             TIPPING
 
 
-       Sasol Rewards                         Simple, trusted earn rate; wide                              –                                –                                 ✓
+       Sasol Rewards                         Simple, trusted earn rate; wide                               –                                –                                 ✓
                                              network
 
-       BP Rewards                            Stacks with Smart Shopper;                                   ✕                                –                                 ✕
+       BP Rewards                            Stacks with Smart Shopper;                                    ✕                                –                                 ✕
                                              tangible cashback
 
-       Engen 1App                            Depends on partner cards; unclear                            –                                –                                 ✓
+       Engen 1App                            Depends on partner cards; unclear                             –                                –                                 ✓
                                              point tracking
 
-       eBucks                                Deep bank integration; high ceiling                          ✕                                ✓                                 ✕
+       eBucks                                Deep bank integration; high ceiling                           ✕                                ✓                                 ✕
                                              for top tiers
 
-       Discovery Vitality                    Up to 50% fuel cashback via                                  ✕                                –                                 ✕
+       Discovery Vitality                    Up to 50% fuel cashback via                                   ✕                                –                                 ✕
                                              driving score
 
-       Tappy                                 Solves cashless attendant tipping,                           ✓                                ✓                                 ✓
+       Tappy                                 Solves cashless attendant tipping,                            ✓                                ✓                                 ✓
                                              standalone
 
  ✕          Poor / not offered           –      Partial     ✓       Strong / fully offered
@@ -109,10 +109,10 @@ validated.
 
 Audit lens
 
-      01                                                                02                                                           03
-      01 Visibility                                                     02 Usable value                                              03 Tipping integration
-      Can customers see what they’ve                                    Can points become something                                  Is there a clear digital way to
-      earned, straight away?                                            useful, easily?                                              thank the attendant?
+      01                                                                 02                                                           03
+      01 Visibility                                                      02 Usable value                                              03 Tipping integration
+      Can customers see what they’ve                                     Can points become something                                  Is there a clear digital way to
+      earned, straight away?                                             useful, easily?                                              thank the attendant?
 
 
 
@@ -124,10 +124,10 @@ Audit lens
 
 What the audit suggests
 
-      01                                                                02                                                           03
-      Visibility                                                        Flexibility                                                  Integrated tipping
-      Low visibility into points was the                                Options buried three or four                                 No programme lets customers tip
-      biggest driver of disengagement.                                  menus deep aren’t flexibility.                               from rewards in one journey.
+      01                                                                 02                                                           03
+      Visibility                                                         Flexibility                                                  Integrated tipping
+      Low visibility into points was the                                 Options buried three or four                                 No programme lets customers tip
+      biggest driver of disengagement.                                   menus deep aren’t flexibility.                               from rewards in one journey.
 
 
 
@@ -139,12 +139,12 @@ THREE ARCHETYPES, ONE SHARED NEED:
 CONTROL.
 Hypotheses from market patterns, not interview-based personas.
 
-      01                                                                02                                                           03
-      Lindiwe Sibanda, 45                                               Lesego Molefe, 32                                            Jabulani Dube, 35
-      Value-conscious parent. Refuels                                   Time-pressed commuter. Apple                                 Bolt driver, daily top-ups, tips in
-      2–3× weekly, switches card and                                    Pay or card, hates log-ins.                                  cash.
-      cash.                                                             “Make it quick or I’m out.”                                  “An easier way to thank them digitally, I’d do it
-                                                                                                                                     all the time.”
+      01                                                                 02                                                           03
+      Lindiwe Sibanda, 45                                                Lesego Molefe, 32                                            Jabulani Dube, 35
+      Value-conscious parent. Refuels                                    Time-pressed commuter. Apple                                 Bolt driver, daily top-ups, tips in
+      2–3× weekly, switches card and                                     Pay or card, hates log-ins.                                  cash.
+      cash.                                                              “Make it quick or I’m out.”                                  “An easier way to thank them digitally, I’d do it
+                                                                                                                                      all the time.”
       “If it saves us money on the school run, we’re
       in.”
 
@@ -153,30 +153,30 @@ Hypotheses from market patterns, not interview-based personas.
 
 Persona in detail
 
-                                                                        B E H AV I O U R S                      G OA L S                                F R U S T R AT I O N S
-                                                                           Refuels 2–3× a week,                      Redeem across fuel,                     Restrictions that ignore
-                                                                           kids in the car                           wash, kiosk                             real habits
-                                                                           Buys kids’ snacks at                      Track the family                        Confusing points-to-
-                                                                           the store                                 balance                                 value maths
-                                                                           Switches card and                         Stretch the budget                      Rewards tied to one
-                                                                           cash                                                                              card
+                                                                        B E H AV I O U R S                       G OA L S                                F R U S T R AT I O N S
+                                                                           Refuels 2–3× a week,                       Redeem across fuel,                     Restrictions that ignore
+                                                                           kids in the car                            wash, kiosk                             real habits
+                                                                           Buys kids’ snacks at                       Track the family                        Confusing points-to-
+                                                                           the store                                  balance                                 value maths
+                                                                           Switches card and                          Stretch the budget                      Rewards tied to one
+                                                                           cash                                                                               card
        LINDIWE SIBANDA
            The Balance- and Value-Conscious
-                                                                        M OT I VAT I O N S                      DELIGHTERS                              E M OT I O N A L
-                        Parent                                                                                                                          DRIVERS
-                                                                           Flexible use across                       “Worth up to R125”
-                 45        Associate Consultant                            services                                  visible the moment she                  Feeling in control of
-                                                                                                                     opens the app                           the family budget
+                                                                        M OT I VAT I O N S                       DELIGHTERS                              E M OT I O N A L
+                        Parent                                                                                                                           DRIVERS
+                                                                           Flexible use across                        “Worth up to R125”
+                 45        Associate Consultant                            services                                   visible the moment she                  Feeling in control of
+                                                                                                                      opens the app                           the family budget
             2 children        Debit card, some cash                        Transparency and
-                                                                           fairness                                  One family balance                      Fairness: no hidden
-                                                                                                                     she can track at a                      rules or surprise expiry
+                                                                           fairness                                   One family balance                      Fairness: no hidden
+                                                                                                                      she can track at a                      rules or surprise expiry
            “If it saves us money on the                                    Value that is easy to
-                                                                           grasp                                     glance                                  Pride in stretching the
+                                                                           grasp                                      glance                                  Pride in stretching the
            school run and the weekend
-                                                                                                                     Using points on a car                   rand for her kids
+                                                                                                                      Using points on a car                   rand for her kids
                    wash, we’re in.”
-                                                                                                                     wash or kiosk treat
-                                                                                                                     during the same stop
+                                                                                                                      wash or kiosk treat
+                                                                                                                      during the same stop
            H Y P OT H E S I S P E R S O N A
            Drawn from market patterns, not
            interviews.
@@ -196,9 +196,9 @@ Persona in detail
 
 Shared need
 
-      01                                                                02                                                           03
-      Control: payment                                                  Control: redemption                                          Control: generosity
-      Which payment method is used.                                     Where value can be redeemed.                                 How thanks is expressed.
+      01                                                                 02                                                           03
+      Control: payment                                                   Control: redemption                                          Control: generosity
+      Which payment method is used.                                      Where value can be redeemed.                                 How thanks is expressed.
 
 
      Tension to test: Lesego won’t spend effort on an app at the pump, yet the MVP is app-based. The bet: one glance at a visible balance
@@ -214,10 +214,10 @@ FOUR BEHAVIOURS, NOT A LONG FEATURE
 LIST.
 If a hypothesis fails, that behaviour is cut or reshaped, not defended.
 
-      01                                                                02                                                           03
-      See it                                                            Use it now                                                   Pay my way
-      One unified, visible balance.                                     Redeem or withdraw close to the                              Earning stays card-agnostic.
-                                                                        moment it’s earned.
+      01                                                                 02                                                           03
+      See it                                                             Use it now                                                   Pay my way
+      One unified, visible balance.                                      Redeem or withdraw close to the                              Earning stays card-agnostic.
+                                                                         moment it’s earned.
 
 
 
@@ -227,7 +227,7 @@ If a hypothesis fails, that behaviour is cut or reshaped, not defended.
       recipient and amount explicit.
 
 
-  H1 Visibility lifts return                  H2 Card-agnostic matters              H3 Cash-out is valued                H4 Tipping belongs here
+  H1 Visibility lifts return                  H2 Card-agnostic matters               H3 Cash-out is valued                H4 Tipping belongs here
 
 
 
@@ -241,18 +241,18 @@ If a hypothesis fails, that behaviour is cut or reshaped, not defended.
 
 FLEXIBILITY MATTERS, BUT THE STOP
 MUST STAY FAST.
-   DECISION                                   TRADE-OFF                                  M V P CA L L
+   DECISION                                   TRADE-OFF                                   M V P CA L L
 
 
-   Card-agnostic                              Flexibility vs simplicity                  Clear earning flow first; validate station payment compatibility before
-   earning                                                                               expanding.
+   Card-agnostic                              Flexibility vs simplicity                   Clear earning flow first; validate station payment compatibility before
+   earning                                                                                expanding.
 
-   Use rewards now                            Redemption vs value control                Transparent balances and defined rules, limiting fraud and liability.
+   Use rewards now                            Redemption vs value control                 Transparent balances and defined rules, limiting fraud and liability.
 
-   Digital tipping                            Generosity vs checkout                     Optional, quick, confirmed, with amount and recipient visible.
+   Digital tipping                            Generosity vs checkout                      Optional, quick, confirmed, with amount and recipient visible.
                                               friction
 
-   Four core behaviours                       Breadth vs adoption                        Defer advanced features until station pilots show they work.
+   Four core behaviours                       Breadth vs adoption                         Defer advanced features until station pilots show they work.
 
 
 
@@ -269,6 +269,7 @@ KEY DECISIONS, WITH THE SCREENS THAT
 PROVE THEM.
 
 
+
        01 SEE IT
            DECISION          Fuel and in-store purchases feed one visible points balance.
            REJECTED          Separate fuel and shop wallets mirroring Shell’s structure.
@@ -277,10 +278,10 @@ PROVE THEM.
 
 
 
-                                                          02 USE IT NOW
-                                                          DECISION        Redeem or withdraw close to the moment it’s earned.
-                                                          REJECTED         High thresholds, delayed rewards, restricted catalogues.
-                                                          EFFECT        Shortens the distance between behaviour and benefit.
+                                                            02 USE IT NOW
+                                                                DECISION        Redeem or withdraw close to the moment it’s earned.
+                                                                REJECTED         High thresholds, delayed rewards, restricted catalogues.
+                                                                EFFECT         Shortens the distance between behaviour and benefit.
 
 
 
@@ -293,10 +294,10 @@ PROVE THEM.
 
 
 
-                                                          04 THANK CLEARLY
-                                                          DECISION        Tipping is separate from fuel, with recipient and amount explicit.
-                                                          REJECTED         A purely transactional journey; gratuity bundled invisibly.
-                                                          EFFECT        Keeps the human layer while supporting a cashless future.
+                                                            04 THANK CLEARLY
+                                                                DECISION        Tipping is separate from fuel, with recipient and amount explicit.
+                                                                REJECTED         A purely transactional journey; gratuity bundled invisibly.
+                                                                EFFECT         Keeps the human layer while supporting a cashless future.
 
 
 
@@ -304,7 +305,7 @@ PROVE THEM.
 Try it: slide your rewards
 
 
-           REDEEM FUEL                   WITHDRAW CASH                    PAY IT FORWARD
+           REDEEM FUEL                   WITHDRAW CASH                     PAY IT FORWARD
 
 
                                                                 F U E L VA L U E
@@ -316,7 +317,7 @@ Try it: slide your rewards
 
 
 
-      R5                                                                                                                                                                         R100
+      R5                                                                                                                                                                          R100
       A QR code is valid for 5 minutes at the pump.
 
 
@@ -333,33 +334,33 @@ EXPERIENCE.
 The digital flow mirrors the station: Launch → Sign in → Dashboard → Fuel payment,
 Rewards, Tipping, Wallet.
 
-  1 Arrive                             2 Pay                          3 Fuel & earn                   4 See value                 5 Redeem                        6 Thank
-  Pull in, pick a                      Choose any                     Points earned, no               +250 pts, balance           Choose when and                 Optional digital tip
-  pump                                 method                         extra task                      visible                     where
+  1 Arrive                             2 Pay                          3 Fuel & earn                    4 See value                 5 Redeem                        6 Thank
+  Pull in, pick a                      Choose any                     Points earned, no                +250 pts, balance           Choose when and                 Optional digital tip
+  pump                                 method                         extra task                       visible                     where
 
 
 
 
-                                                                                         Launch app
+                                                                                          Launch app
 
-                                                                                      Log in           Sign
-                                                                                                        up
+                                                                                      Log in            Sign
+                                                                                                         up
 
-                                                                                      Home dashboard
+                                                                                       Home dashboard
 
-                                      Fuel payment                         Rewards                        Tip attendant                  Profile & wallet
+                                      Fuel payment                         Rewards                         Tip attendant                  Profile & wallet
 
-                                               ↓                                ↓                                ↓                               ↓
+                                               ↓                                ↓                                 ↓                               ↓
 
-                                     Choose pump /                      Points balance                  Select attendant              Add card · Add bank
+                                     Choose pump /                      Points balance                   Select attendant              Add card · Add bank
                                         amount
-                                                                                ↓                                ↓
+                                                                                ↓                                 ↓
                                                ↓
-                                                                     Redeem · Withdraw                 Choose tip amount
+                                                                     Redeem · Withdraw                  Choose tip amount
                                        Pay by card
-                                                                                ↓                                ↓
+                                                                                ↓                                 ↓
                                                ↓
-                                                                     Bank / card payout                 Tip confirmation
+                                                                     Bank / card payout                  Tip confirmation
                                  Receipt · Earn points
 
 
@@ -385,10 +386,10 @@ Choose a reward, confirm, show a QR at the pump.
 
 
 
-        CHOOSE REWARD                                  PICK AMOUNT                           CONFIRM                           QR AT PUMP
+               CHOOSE REWARD                                PICK AMOUNT                                    CONFIRM                               QR AT PUMP
 
 
-  ‹                                                                                                                                                                                      ›
+  ‹                                                                                                                                                                                       ›
 
 
 PAY IT FORWARD
@@ -397,10 +398,10 @@ Scan the attendant, pick amount and payment, send a tip.
 
 
 
-                 INTRO                                 SCAN CODE                               FOUND                         AMOUNT & PAY                               REVIEW
+                   INTRO                                   SCAN CODE                                      FOUND                              AMOUNT & PAY                                     R
 
 
-  ‹                                                                                                                                                                                      ›
+  ‹                                                                                                                                                                                       ›
 
 
 WITHDRAW
@@ -409,10 +410,10 @@ Choose amount and bank, verify identity, track status.
 
 
 
-               OVERVIEW                                 AMOUNT                               ACCOUNT                             REVIEW                                 VERIFY
+                OVERVIEW                                     AMOUNT                                     ACCOUNT                                   REVIEW
 
 
-  ‹                                                                                                                                                                                      ›
+  ‹                                                                                                                                                                                       ›
 
 
 
@@ -423,13 +424,13 @@ Choose amount and bank, verify identity, track status.
 
 DARK, HIGH-CONTRAST, BUILT FOR THE
 FORECOURT.
-  Orange                               Lime                           Amber                           Error                       Background                     Text
-  #FF6A00                              #C9FF38                        #FF9A2F                         #FF4D4D                     #080A09                        #FFFFFF
-  Action, fuel                         Rewards, success               Pending                         Failures, debits            Surface                        Copy
+  Orange                               Lime                           Amber                            Error                       Background                     Text
+  #FF6A00                              #C9FF38                        #FF9A2F                          #FF4D4D                     #080A09                        #FFFFFF
+  Action, fuel                         Rewards, success               Pending                          Failures, debits            Surface                        Copy
 
 
 
-     TYPOGRAPHY                                                         BORDER RADIUS                                               S PAC I N G · B AS E 4 P X
+     TYPOGRAPHY                                                         BORDER RADIUS                                                S PAC I N G · B AS E 4 P X
 
 
 
@@ -444,19 +445,19 @@ FORECOURT.
 1 2 · S U C C E S S & I M PAC T
 
 SUCCESS IS REPEAT VISITS.
-                                                                                             01                                                01
+                                                                                             01                                                 01
        PRIMARY MEASURE
 
 
 
        30/60-day
-                                                                                             Secondary: redemption                             Rejected: sign-ups
-                                                                                             Proves the flow works, not                        Curiosity can be bought; it
+                                                                                             Secondary: redemption                              Rejected: sign-ups
+                                                                                             Proves the flow works, not                         Curiosity can be bought; it
 
 
        return
-                                                                                             that customers return.                            doesn’t prove behaviour
-                                                                                                                                               changed.
+                                                                                             that customers return.                             doesn’t prove behaviour
+                                                                                                                                                changed.
 
 
        Against a pre-pilot baseline. Repeat
@@ -471,20 +472,20 @@ SUCCESS IS REPEAT VISITS.
 13 · LESSONS & NEXT STEPS
 
 WHAT I’D CARRY FORWARD.
-      01                                                                02                                                           03
-      Evidence has a ceiling                                            Every choice costs a step                                    Pick the metric before the
-      An audit without interviews is                                    Each time I added flexibility                                pixels
-      directional. Saying so early                                      (payment, redemption, tipping) I                             Choosing repeat engagement
-      shaped my hypotheses and the                                      asked what it did to the moment                              over sign-ups first kept the
-      rule that a failed one gets cut or                                at the pump.                                                 design honest about what
-      reshaped.                                                                                                                      success means.
+      01                                                                 02                                                           03
+      Evidence has a ceiling                                             Every choice costs a step                                    Pick the metric before the
+      An audit without interviews is                                     Each time I added flexibility                                pixels
+      directional. Saying so early                                       (payment, redemption, tipping) I                             Choosing repeat engagement
+      shaped my hypotheses and the                                       asked what it did to the moment                              over sign-ups first kept the
+      rule that a failed one gets cut or                                 at the pump.                                                 design honest about what
+      reshaped.                                                                                                                       success means.
 
 
 
 Next steps
 
-  01 Interviews                                         02 Task tests                                 03 Live pilot                               04 Iterate
-  Test H1–H4                                            Balance, redeem, tip                          Return, service time, cost                  Keep what earns a visit
+  01 Interviews                                         02 Task tests                                  03 Live pilot                               04 Iterate
+  Test H1–H4                                            Balance, redeem, tip                           Return, service time, cost                  Keep what earns a visit
 
 
 
@@ -497,12 +498,13 @@ Next steps
 
    THANK YOU FOR READING MY CASE
               STUDY
-                                                                              Hope you enjoyed the ride.
-
-                                                                                    PAY I T F O R WA R D
+                                                                               Hope you enjoyed the ride.
 
 
-                                                                          R 0.00
+                                                                                     PAY I T F O R WA R D
+
+
+                                                                           R 0.00
                                                                                     TIP THE AUTHOR
 
                                                         Tank’s full. Rewards redeemed. See you at the next stop.
