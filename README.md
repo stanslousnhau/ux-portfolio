@@ -39,3 +39,6 @@ V39 updates: Velocity now features two side-by-side research-informed persona ar
 
 
 V41 PDF rendering update: desktop case-study pages now use the original PDF in a full-width native browser viewer. Mobile uses high-resolution, zero-gap raster slices generated directly from the original PDFs. This removes the visible spacing between slices and improves image sharpness/colour fidelity, including the RISE blue mockups.
+
+
+Case study rendering: case-study PDFs are displayed as high-resolution responsive images rather than embedded PDF viewers, so desktop and mobile use the same crisp full-width presentation. Case-study pages do not include the contact/CV footer.
