@@ -7,7 +7,7 @@
 - Each case study follows the same structure: Summary, Problem, My role, Process, Key decisions and trade-offs, Outcome/learnings, What I learned, and Next steps.
 - Replaced repeated status/validation disclaimers with one concise Scope and evidence note per case study.
 - About section explains the move into UX, formal training, and facilitation of UX research classes/programmes.
-- Existing project visuals, assets, CV and Stan. favicon retained.
+- Existing project visuals, assets, Stan. favicon retained.
 
 Open `index.html` locally or deploy the contents of this folder to a static host.
 
@@ -41,7 +41,7 @@ V39 updates: Velocity now features two side-by-side research-informed persona ar
 V41 PDF rendering update: desktop case-study pages now use the original PDF in a full-width native browser viewer. Mobile uses high-resolution, zero-gap raster slices generated directly from the original PDFs. This removes the visible spacing between slices and improves image sharpness/colour fidelity, including the RISE blue mockups.
 
 
-Case study rendering: case-study PDFs are displayed as high-resolution responsive images rather than embedded PDF viewers, so desktop and mobile use the same crisp full-width presentation. Case-study pages do not include the contact/CV footer.
+Case study rendering: case-study PDFs are displayed as high-resolution responsive images rather than embedded PDF viewers, so desktop and mobile use the same crisp full-width presentation. Case-study pages do not include the contact footer.
 
 
 V50 mobile API case-study cleanup: removed the 'Constraints I designed around' content and fixed the chapter section separators so the mobile divider remains a thin line instead of rendering as a blank white block.
