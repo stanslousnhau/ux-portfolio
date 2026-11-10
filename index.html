@@ -42,12 +42,17 @@ h1{font-size:clamp(52px,8.6vw,132px);line-height:.9;letter-spacing:-.05em;margin
 .sub{font-size:clamp(22px,2.8vw,32px);margin:0 0 14px;color:var(--mute)}
 .lede{max-width:540px;color:var(--mute);font-size:18px;margin:0 0 28px}
 .hint{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8190b4;margin-top:22px}
-.face{position:relative;justify-self:center;width:min(400px,86%);aspect-ratio:4/5;transition:transform .2s ease-out}
-.face::before{display:none}
-.frame{position:relative;z-index:1;width:100%;height:100%;border-radius:220px 220px 28px 28px;overflow:hidden;background:transparent;display:grid;place-items:center;color:var(--navy);font-weight:700;font-size:88px;letter-spacing:-.05em;box-shadow:none}
-.frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.face{order:-1;width:220px}.frame{font-size:56px}}
+.face{position:relative;justify-self:center;width:min(400px,86%);transition:none;display:flex;align-items:flex-end;justify-content:center}
+.face img{display:block;width:100%;height:auto;max-height:650px;object-fit:contain;object-position:center bottom}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.face{order:-1;width:min(180px,52vw)}.face img{max-height:360px}}
 section{padding:120px 0;position:relative}
+/* Stacked-panel scroll: each major section pins to the viewport and the next panel slides over it. */
+#work,#lab,#about,#contact{position:sticky;top:0;min-height:100vh;isolation:isolate}
+#work{z-index:10;background:#fff}
+#lab{z-index:20}
+#about{z-index:30;background:#fff}
+#contact{z-index:40}
+@media(max-width:760px){#work,#lab,#about,#contact{min-height:100svh;top:0}}
 .eyebrow{font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin:0 0 16px}
 h2{font-size:clamp(38px,6.2vw,88px);line-height:.96;letter-spacing:-.045em;margin:0 0 26px;font-weight:700;max-width:1000px}
 .lead{color:var(--mute);font-size:19px;max-width:640px;margin:0 0 54px}
@@ -128,7 +133,6 @@ nav{--tx:-50%}
 @keyframes curtain{to{transform:translateY(-100%);visibility:hidden}}
 .hero .wrap>div:first-child>*{animation:rise .9s cubic-bezier(.2,.8,.2,1) backwards}
 .hero .wrap>div:first-child>*:nth-child(1){animation-delay:1.55s}.hero .wrap>div:first-child>*:nth-child(2){animation-delay:1.65s}.hero .wrap>div:first-child>*:nth-child(3){animation-delay:1.75s}.hero .wrap>div:first-child>*:nth-child(4){animation-delay:1.85s}.hero .wrap>div:first-child>*:nth-child(5){animation-delay:1.95s}.hero .wrap>div:first-child>*:nth-child(6){animation-delay:2.05s}
-.face{animation:rise 1.1s cubic-bezier(.2,.8,.2,1) 1.7s backwards}
 .scrollcue{position:absolute;left:50%;bottom:18px;z-index:2;width:1px;height:46px;background:linear-gradient(var(--blue),transparent);transform-origin:top;animation:cue 2s ease-in-out infinite;pointer-events:none}
 @keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
 .pill.fill{box-shadow:0 12px 28px -12px rgba(21,70,245,.65)}
@@ -147,8 +151,6 @@ nav{--tx:-50%}
 .hero .sub,.hero .lede{color:#b3c0e3}
 .hero .chip{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2);color:#fff;backdrop-filter:blur(6px)}
 .hero .hint{color:#7f8fb8}
-.hero .face::before{opacity:.35;background:#4f7cff;filter:blur(36px)}
-.hero .frame{box-shadow:0 30px 70px -20px rgba(0,0,0,.65)}
 .scrollcue{background:linear-gradient(#fff,transparent)}
 .hero .pill.fill{box-shadow:0 12px 30px -10px rgba(90,130,255,.7)}
 .hero .pill.fill:hover{background:#fff;color:var(--blue);border-color:#fff}
@@ -267,7 +269,7 @@ var RM=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 var mx=-999,my=-999,cx=0,cy=0;
 var bar=$('#bar'),cur=$('#cur'),pv=$('#pv'),face=$('#face');
 window.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;cur.style.opacity=1;
- if(face&&!RM){face.style.transform=''}});
+});
 (function loop(){cx+=(mx-cx)*.2;cy+=(my-cy)*.2;cur.style.transform='translate('+cx+'px,'+cy+'px)';
  pv.style.left=(cx+24)+'px';pv.style.top=(cy+24)+'px';requestAnimationFrame(loop)})();
 $$('a,button').forEach(function(e){e.addEventListener('mouseenter',function(){cur.classList.add('big')});e.addEventListener('mouseleave',function(){cur.classList.remove('big')})});
