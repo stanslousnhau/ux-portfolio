@@ -1359,3 +1359,21 @@ body:before{background:radial-gradient(circle at 10% 10%,rgba(157,140,255,.10),t
   .hero .face { width: min(250px, 72vw) !important; }
 }
 
+
+/* Mobile hero portrait: slightly larger while preserving the full, uncropped image. */
+@media (max-width: 600px) {
+  .hero .face {
+    width: min(290px, 78vw) !important;
+    max-width: 78vw !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    overflow: visible !important;
+  }
+  .hero .face > img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    border-radius: 0 !important;
+  }
+}
