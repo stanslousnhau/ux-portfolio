@@ -1360,20 +1360,31 @@ body:before{background:radial-gradient(circle at 10% 10%,rgba(157,140,255,.10),t
 }
 
 
-/* Mobile hero portrait: slightly larger while preserving the full, uncropped image. */
-@media (max-width: 600px) {
+
+/* Latest requested refinements: desktop portrait placement + compact mobile avatar */
+@media (min-width: 861px) {
   .hero .face {
-    width: min(290px, 78vw) !important;
-    max-width: 78vw !important;
-    height: auto !important;
-    aspect-ratio: auto !important;
-    overflow: visible !important;
+    transform: translateY(58px) !important;
+    align-self: end !important;
+  }
+}
+@media (max-width: 860px) {
+  .hero .face {
+    width: 76px !important;
+    height: 76px !important;
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    border: 1px solid #e1e1e6 !important;
+    background: #f4f4f6 !important;
+    margin: 0 0 14px !important;
+    transform: none !important;
   }
   .hero .face > img {
     width: 100% !important;
-    height: auto !important;
-    max-height: none !important;
-    object-fit: contain !important;
-    border-radius: 0 !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 12% !important;
+    border-radius: 50% !important;
   }
 }
