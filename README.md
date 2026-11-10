@@ -42,6 +42,3 @@ V41 PDF rendering update: desktop case-study pages now use the original PDF in a
 
 
 Case study rendering: case-study PDFs are displayed as high-resolution responsive images rather than embedded PDF viewers, so desktop and mobile use the same crisp full-width presentation. Case-study pages do not include the contact/CV footer.
-
-
-V50 mobile API case-study cleanup: removed the 'Constraints I designed around' content and fixed the chapter section separators so the mobile divider remains a thin line instead of rendering as a blank white block.
