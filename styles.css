@@ -1316,3 +1316,58 @@ body:before{background:radial-gradient(circle at 10% 10%,rgba(157,140,255,.10),t
   object-fit: contain !important;
   object-position: center !important;
 }
+
+
+/* Final hero portrait: use the original portrait directly, with no frame, crop, circle or background shape. */
+.hero .face {
+  position: relative !important;
+  justify-self: center !important;
+  width: min(400px, 86%) !important;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  animation: none !important;
+  transition: none !important;
+}
+.hero .face::before,
+.hero .face::after {
+  content: none !important;
+  display: none !important;
+}
+.hero .face > img {
+  position: static !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+@media (max-width: 860px) {
+  .hero .face { width: min(280px, 80vw) !important; order: -1 !important; }
+}
+@media (max-width: 600px) {
+  .hero .face { width: min(250px, 72vw) !important; }
+}
+
+/* Stacked page panels: each major homepage frame stays in place while the next one slides over it. */
+html{scroll-behavior:auto!important}
+#top,#work,#lab,#about,#contact{position:sticky!important;top:72px!important;min-height:calc(100vh - 72px)!important;isolation:isolate}
+#top{z-index:1!important;background:#fff!important}
+#work{z-index:2!important;background:#fff!important}
+#lab{z-index:3!important;background:#fff!important}
+#about{z-index:4!important;background:#fff!important}
+#contact{z-index:5!important;background:#f8f8fa!important}
+@media(max-width:600px){
+  #top,#work,#lab,#about,#contact{top:72px!important;min-height:calc(100vh - 72px)!important}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
