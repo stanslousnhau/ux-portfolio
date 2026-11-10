@@ -1359,15 +1359,3 @@ body:before{background:radial-gradient(circle at 10% 10%,rgba(157,140,255,.10),t
   .hero .face { width: min(250px, 72vw) !important; }
 }
 
-/* Stacked page panels: each major homepage frame stays in place while the next one slides over it. */
-html{scroll-behavior:auto!important}
-#top,#work,#lab,#about,#contact{position:sticky!important;top:72px!important;min-height:calc(100vh - 72px)!important;isolation:isolate}
-#top{z-index:1!important;background:#fff!important}
-#work{z-index:2!important;background:#fff!important}
-#lab{z-index:3!important;background:#fff!important}
-#about{z-index:4!important;background:#fff!important}
-#contact{z-index:5!important;background:#f8f8fa!important}
-@media(max-width:600px){
-  #top,#work,#lab,#about,#contact{top:72px!important;min-height:calc(100vh - 72px)!important}
-}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}

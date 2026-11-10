@@ -46,13 +46,6 @@ h1{font-size:clamp(52px,8.6vw,132px);line-height:.9;letter-spacing:-.05em;margin
 .face img{display:block;width:100%;height:auto;max-height:650px;object-fit:contain;object-position:center bottom}
 @media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.face{order:-1;width:min(180px,52vw)}.face img{max-height:360px}}
 section{padding:120px 0;position:relative}
-/* Stacked-panel scroll: each major section pins to the viewport and the next panel slides over it. */
-#work,#lab,#about,#contact{position:sticky;top:0;min-height:100vh;isolation:isolate}
-#work{z-index:10;background:#fff}
-#lab{z-index:20}
-#about{z-index:30;background:#fff}
-#contact{z-index:40}
-@media(max-width:760px){#work,#lab,#about,#contact{min-height:100svh;top:0}}
 .eyebrow{font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin:0 0 16px}
 h2{font-size:clamp(38px,6.2vw,88px);line-height:.96;letter-spacing:-.045em;margin:0 0 26px;font-weight:700;max-width:1000px}
 .lead{color:var(--mute);font-size:19px;max-width:640px;margin:0 0 54px}
