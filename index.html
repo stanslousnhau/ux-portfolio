@@ -23,7 +23,7 @@ em,.em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--em
 #bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--blue);z-index:100}
 .cur{position:fixed;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border:1.5px solid var(--blue);border-radius:50%;pointer-events:none;z-index:90;transition:width .25s,height .25s,margin .25s,background .25s;opacity:0}
 .cur.big{width:78px;height:78px;margin:-39px 0 0 -39px;background:rgba(21,70,245,.14)}
-@media(hover:none){.cur,.pv{display:none}}
+@media(hover:none), (max-width:700px){.cur,.pv{display:none!important}}
 .logo{font-weight:700;font-size:20px;letter-spacing:-.03em}
 .pill{display:inline-block;border:1.5px solid currentColor;border-radius:999px;padding:11px 24px;font-weight:700;font-size:14px;transition:background .25s,color .25s,border-color .25s;color:inherit;font-family:inherit}
 .pill.fill{background:var(--blue);border-color:var(--blue);color:#fff}
@@ -43,8 +43,8 @@ h1{font-size:clamp(52px,8.6vw,132px);line-height:.9;letter-spacing:-.05em;margin
 .lede{max-width:540px;color:var(--mute);font-size:18px;margin:0 0 28px}
 .hint{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8190b4;margin-top:22px}
 .face{position:relative;justify-self:center;width:min(400px,86%);aspect-ratio:4/5;transition:transform .2s ease-out}
-.face::before{content:"";position:absolute;inset:-6% -8% 10% 14%;border-radius:50%;background:var(--blue);opacity:.12;z-index:0}
-.frame{position:relative;z-index:1;width:100%;height:100%;border-radius:220px 220px 28px 28px;overflow:hidden;background:linear-gradient(160deg,#2f5cff,#0a2a9c);display:grid;place-items:center;color:#fff;font-weight:700;font-size:88px;letter-spacing:-.05em;box-shadow:0 30px 60px -20px rgba(21,70,245,.5)}
+.face::before{display:none}
+.frame{position:relative;z-index:1;width:100%;height:100%;border-radius:220px 220px 28px 28px;overflow:hidden;background:transparent;display:grid;place-items:center;color:var(--navy);font-weight:700;font-size:88px;letter-spacing:-.05em;box-shadow:none}
 .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 @media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.face{order:-1;width:220px}.frame{font-size:56px}}
 section{padding:120px 0;position:relative}
@@ -267,13 +267,16 @@ var RM=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 var mx=-999,my=-999,cx=0,cy=0;
 var bar=$('#bar'),cur=$('#cur'),pv=$('#pv'),face=$('#face');
 window.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;cur.style.opacity=1;
- if(face&&!RM){var r=face.getBoundingClientRect(),dx=(e.clientX-(r.left+r.width/2))/innerWidth,dy=(e.clientY-(r.top+r.height/2))/innerHeight;
-  face.style.transform='perspective(900px) rotateY('+(dx*8)+'deg) rotateX('+(-dy*8)+'deg)'}});
+ if(face&&!RM){face.style.transform=''}});
 (function loop(){cx+=(mx-cx)*.2;cy+=(my-cy)*.2;cur.style.transform='translate('+cx+'px,'+cy+'px)';
  pv.style.left=(cx+24)+'px';pv.style.top=(cy+24)+'px';requestAnimationFrame(loop)})();
 $$('a,button').forEach(function(e){e.addEventListener('mouseenter',function(){cur.classList.add('big')});e.addEventListener('mouseleave',function(){cur.classList.remove('big')})});
-$$('.proj').forEach(function(p){p.addEventListener('mouseenter',function(){pv.style.background=p.dataset.c;$('#pvn').textContent=p.dataset.n;$('#pvt').textContent=p.dataset.t;pv.classList.add('on')});
- p.addEventListener('mouseleave',function(){pv.classList.remove('on')})});
+$$('.proj').forEach(function(p){p.addEventListener('mouseenter',function(){if(matchMedia('(hover:none)').matches||innerWidth<=700)return;pv.style.background=p.dataset.c;$('#pvn').textContent=p.dataset.n;$('#pvt').textContent=p.dataset.t;pv.classList.add('on')});
+ p.addEventListener('mouseleave',function(){pv.classList.remove('on')});
+ p.addEventListener('click',function(){pv.classList.remove('on');pv.style.opacity='0'},true);
+ p.addEventListener('touchstart',function(){pv.classList.remove('on');pv.style.opacity='0'},{passive:true});
+});
+window.addEventListener('pagehide',function(){pv&&pv.classList.remove('on')});
 $$('.mag').forEach(function(b){b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();
  b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.25)+'px,'+((e.clientY-r.top-r.height/2)*.35)+'px)'});
  b.addEventListener('mouseleave',function(){b.style.transform=''})});
