@@ -72,7 +72,16 @@ section{padding:40px 0 8px}
 .hero .w{grid-template-columns:.85fr 1.25fr}.ph{width:min(176px,30%)}.ph.a{left:0;top:70px;transform:rotate(-3deg)}.ph.b{left:34.5%;top:10px}.ph.c{left:69%;top:70px;transform:rotate(3deg)}.stage{height:470px}.hero .w{min-height:490px}
 @media(max-width:760px){.hero .w{grid-template-columns:1fr}.ph{width:30%}.stage{height:360px}}
 .ip:before,.ph:before,.sc:before{top:2.1%;width:25%;height:auto;aspect-ratio:5/1.5}
-</style></head><body>
+
+/* Portfolio loading transition */
+.case-intro-loader{position:fixed;inset:0;z-index:9999;background:#1546f5;display:grid;place-items:center;color:#fff;animation:caseLoaderCurtain 1s cubic-bezier(.76,0,.24,1) 1.05s forwards;pointer-events:none}
+.case-intro-loader > div{text-align:center}
+.case-intro-loader b{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(48px,9vw,110px);line-height:1;letter-spacing:-.02em;display:block;animation:caseLoaderRise .8s cubic-bezier(.2,.8,.2,1) .15s both}
+.case-intro-loader small{display:block;text-align:center;font-size:12px;line-height:1.2;letter-spacing:.2em;text-transform:uppercase;opacity:.75;margin-top:10px;animation:caseLoaderRise .8s ease .35s both}
+@keyframes caseLoaderRise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes caseLoaderCurtain{to{transform:translateY(-100%)}}
+@media(prefers-reduced-motion:reduce){.case-intro-loader{display:none}}
+</style></head><body><div class="case-intro-loader" aria-hidden="true"><div><b>Stanslous Nhau</b><small>UX Designer · Portfolio</small></div></div>
 <header class="hero"><div class="dot" style="width:20px;height:20px;background:#fff;left:4%;top:56%;opacity:.9"></div><div class="dot" style="width:30px;height:30px;border:3px solid var(--yel);left:14%;top:70%"></div><div class="dot" style="width:46px;height:46px;border:6px solid #fff;right:3%;top:8%;opacity:.5"></div>
 <div class="w"><div><div class="k">UX case study · Fintech · Youth banking</div><h1>RISE</h1><div class="tg">Real Income, Steady Earnings</div>
 <div class="meta"><div><b>Role</b>UX Designer (solo)</div><div><b>Designer</b>Stanslous Nhau</div><div><b>Scope</b>Research → strategy → hi-fi UI</div><div><b>Status</b>Design exploration, not shipped</div></div><div class="logo">Rise.</div></div>
