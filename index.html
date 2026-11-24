@@ -102,6 +102,15 @@ h2.t{margin:8px auto 14px;text-align:center;font:400 clamp(30px,5vw,60px)/1.1 va
 .cap p{margin:0 0 12px;color:var(--mute);font-size:14.5px}
 .role{font-size:12.5px;color:#fff;opacity:.85}
 
+.experience{padding-top:72px}
+.experience-card{max-width:900px;margin:0 auto;border:1px solid var(--line);border-radius:20px;background:var(--panel);padding:28px}
+.experience-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.experience-card h3{margin:0;font:500 25px/1.25 var(--sans)}
+.experience-role{margin:6px 0 0;color:var(--blue-l);font-size:14px}
+.experience-date{color:var(--mute);font-size:13px}
+.experience-card ul{margin:22px 0 0;padding-left:20px;color:#d5dcf6}
+.experience-card li{padding:0 0 10px 4px}
+.experience-card li:last-child{padding-bottom:0}
 .lab{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:stretch}
 .steps{display:grid;align-content:start}
 .step{position:relative;background:none;border:0;border-top:1px solid var(--line);font:inherit;color:inherit;text-align:left;cursor:pointer;padding:20px 0 22px}
@@ -140,7 +149,7 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
 
 @media(max-width:820px){
   .feats{grid-template-columns:1fr;padding:48px 0}.feat{padding:22px 0}.feat+.feat{border-left:0;border-top:1px solid var(--line)}
-  .grid,.lab,.about{grid-template-columns:1fr}.wide .art{aspect-ratio:16/10}.panel{min-height:280px}
+  .grid,.lab,.about{grid-template-columns:1fr}.wide .art{aspect-ratio:16/10}.panel{min-height:280px}.experience-card{padding:22px}.experience-heading{display:block}.experience-date{display:block;margin-top:10px}
   .neon{width:30%}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.js .rv{opacity:1;transform:none}}
@@ -174,30 +183,43 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
 <div class="prog" aria-hidden="true"></div>
 <header class="nav"><div class="w">
   <nav class="bar" aria-label="Main">
-    <ul class="l"><li><a href="#top">Home</a></li><li><a href="#work">Work</a></li><li><a href="#process">Process</a></li></ul>
+    <ul class="l"><li><a href="#top">Home</a></li><li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li></ul>
     <a class="logo" href="#top"><i></i>STAN.</a>
     <ul class="r"><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li><li><a class="pill small" href="#contact">Let’s talk <b>→</b></a></li></ul>
     <button class="menu" type="button" id="menu" aria-expanded="false" aria-controls="drop">Menu</button>
   </nav>
-  <div class="drop" id="drop"><a href="#work">Work</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a><a class="pill" href="#contact">Let’s talk <b>→</b></a></div>
+  <div class="drop" id="drop"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a><a class="pill" href="#contact">Let’s talk <b>→</b></a></div>
 </div></header>
 
 <main>
 <div class="w hero" id="top">
   <div class="badge"><b>New</b>UX Designer · Johannesburg</div>
   <h1>Hello, I’m <em>Stan</em></h1>
-  <p>I research people’s needs and design digital products around them. My BCom in Statistics helps me question assumptions, spot patterns in evidence and make clearer design decisions.</p>
+  <p>I bring research, systems thinking, AI-assisted workflows and product design together to understand how people, services and technology connect. My BCom in Statistics helps me question assumptions, spot patterns in evidence and make clearer design decisions.</p>
   <div class="btns"><a class="pill" href="#work">View my work <b>→</b></a><a class="pill o" href="#about">About me <b>→</b></a></div>
   <div class="frame" id="frame">
     <svg class="neon l" viewBox="0 0 200 140" aria-hidden="true"><path d="M10 70 L150 100M40 20 L120 90M80 5 L130 75M20 110 L120 60"/></svg>
     <svg class="neon r" viewBox="0 0 200 140" aria-hidden="true"><path d="M10 70 L150 100M40 20 L120 90M80 5 L130 75M20 110 L120 60"/></svg>
     <div class="blob" id="blob" role="img" aria-label="Portrait of Stanslous Nhau"><div class="in">SN<img src="assets/stan-portrait.png" alt="" onerror="this.remove()"></div></div>
   </div>
-  <div class="feats">
-    <div class="feat rv"><h3>Research-led</h3><p>Interviews, affinity mapping and synthesis that turn conversations into decisions.</p></div>
-    <div class="feat rv"><h3>Evidence-first</h3><p>A statistics background to question assumptions and spot patterns in the data.</p></div>
-    <div class="feat rv"><h3>Human-centred</h3><p>Flows, concepts and products designed around what people actually need.</p></div>
-  </div>
+  <section class="experience" id="experience">
+    <div class="eyebrow rv">Experience</div>
+    <h2 class="t rv">Building research capability and shaping better experiences</h2>
+    <div class="experience-card rv">
+      <div class="experience-heading">
+        <div>
+          <h3>UluntuXD</h3>
+          <p class="experience-role">Design Strategist Intern · UX Research Facilitator</p>
+        </div>
+        <span class="experience-date">September 2026 – November 2026</span>
+      </div>
+      <ul>
+        <li>Contributed to design strategy, applying research and systems thinking to understand people, services and wider organisational challenges.</li>
+        <li>Facilitated UX research learning for postgraduate Psychology and Behavioural Science students, supporting their understanding and practical application of research methods.</li>
+        <li>Used AI-assisted outreach to identify and develop potential partnership and sponsorship leads.</li>
+      </ul>
+    </div>
+  </section>
 </div>
 
 <section id="work"><div class="w">
@@ -211,21 +233,6 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
   </div>
 </div></section>
 
-<section id="process"><div class="w">
-  <div class="eyebrow rv">How I work</div>
-  <h2 class="t rv">From messy questions to useful decisions</h2>
-  <p class="sub rv">Pick a step and watch the evidence reorganise.</p>
-  <div class="lab rv">
-    <div class="steps" role="group" aria-label="Process steps">
-      <button class="step" type="button" aria-pressed="true" data-m="0" data-c="Raw evidence: scattered observations"><b>Understand</b><span>Research the people, context and constraints before jumping to solutions.</span></button>
-      <button class="step" type="button" aria-pressed="false" data-m="1" data-c="Patterns: signals start to cluster"><b>Make sense</b><span>Turn observations and data into patterns, priorities and a clear point of view.</span></button>
-      <button class="step" type="button" aria-pressed="false" data-m="2" data-c="Structure: ideas organised into flows"><b>Design</b><span>Translate evidence into flows, concepts and product experiences people can use.</span></button>
-      <button class="step" type="button" aria-pressed="false" data-m="3" data-c="Story: connected into one clear direction"><b>Communicate</b><span>Bring teams along through storytelling, facilitation and clear design rationale.</span></button>
-    </div>
-    <div class="panel"><canvas id="pc" aria-hidden="true"></canvas><div class="pnum pop" id="pnum" aria-hidden="true">01</div><div class="pcap" id="pcap" aria-live="polite">Raw evidence: scattered observations</div></div>
-  </div>
-</div></section>
-
 <section id="about"><div class="w about">
   <div class="photo rv">SN<img src="assets/stan-about.jpg" alt="Stanslous Nhau presenting in a workshop" onerror="this.remove()"></div>
   <div>
@@ -233,7 +240,7 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
     <p class="rv">I question assumptions, spot <b>patterns</b>, and stay honest about what the evidence can, and cannot, tell us.</p>
     <p class="rv">I completed a <b>BCom in Statistics at Nelson Mandela University</b>, where I learned to examine data, recognise patterns and question assumptions. I wanted to apply that foundation to problems that affect people directly, which led me to UX research and product design.</p>
     <p class="rv">I also <b>facilitate UX research classes and research programmes</b>, supporting learners as they practise research methods and user-centred problem-solving.</p>
-    <div class="chips rv"><span>UX research</span><span>Product design</span><span>Facilitation</span><span>Systems thinking</span></div>
+    <div class="chips rv"><span>UX research</span><span>Product design</span><span>Facilitation</span><span>Systems thinking</span><span>AI-assisted workflows</span></div>
   </div>
 </div></section>
 
@@ -261,49 +268,7 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
   var fr=d.getElementById('frame'),bl=d.getElementById('blob');
   if(!RM){fr.addEventListener('pointermove',function(e){var r=fr.getBoundingClientRect();bl.style.transform='translateX('+(((e.clientX-r.left)/r.width-.5)*24)+'px)'});fr.addEventListener('pointerleave',function(){bl.style.transform=''})}
 
-  function Dots(cv,host,N){
-    var c=cv.getContext('2d'),dpr=Math.min(devicePixelRatio||1,2),W=0,H=0,P=[],mode=0,mx=-999,my=-999,L=100,run=false,init=false;
-    for(var i=0;i<N;i++)P.push({rx:Math.random(),ry:Math.random(),a:Math.random()*6.283,rr:Math.sqrt(Math.random()),g:i%4,x:0,y:0,tx:0,ty:0,ph:Math.random()*6.283});
-    function layout(){
-      var m=Math.min(W,H),cols=Math.ceil(Math.sqrt(N*W/H)),rows=Math.ceil(N/cols),C=[[.2,.3],[.78,.28],[.28,.74],[.76,.72]];
-      P.forEach(function(p,i){
-        if(mode===0){p.tx=p.rx*W;p.ty=p.ry*H}
-        else if(mode===1){var k=C[p.g];p.tx=k[0]*W+Math.cos(p.a)*p.rr*m*.17;p.ty=k[1]*H+Math.sin(p.a)*p.rr*m*.17}
-        else if(mode===2){p.tx=((i%cols)+.5)/cols*W;p.ty=(Math.floor(i/cols)+.5)/rows*H}
-        else{var t=i/N;p.tx=t*W;p.ty=H*.5+Math.sin(t*9.4)*H*.22+(p.ry-.5)*H*.1}
-        if(!init){p.x=p.rx*W;p.y=p.ry*H}
-      });
-      init=true;L=[m*.15,m*.2,Math.max(W/cols,H/rows)*1.1,m*.2][mode];
-      if(RM){P.forEach(function(p){p.x=p.tx;p.y=p.ty});draw(0)}
-    }
-    function draw(t){
-      c.clearRect(0,0,W,H);
-      P.forEach(function(p){
-        if(!RM){p.x+=(p.tx+Math.sin(t/900+p.ph)*3-p.x)*.07;p.y+=(p.ty+Math.cos(t/1100+p.ph)*3-p.y)*.07;var dx=mx-p.x,dy=my-p.y;if(dx*dx+dy*dy<22500){p.x+=dx*.01;p.y+=dy*.01}}
-      });
-      c.lineWidth=1;
-      for(var i=0;i<N;i++){
-        var a=P[i];
-        for(var j=i+1;j<N;j++){var b=P[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);if(d<L){c.strokeStyle='rgba(120,160,255,'+((1-d/L)*.35)+')';c.beginPath();c.moveTo(a.x,a.y);c.lineTo(b.x,b.y);c.stroke()}}
-        var mdx=mx-a.x,mdy=my-a.y,md=Math.sqrt(mdx*mdx+mdy*mdy);
-        if(md<150){c.strokeStyle='rgba(160,190,255,'+((1-md/150)*.8)+')';c.beginPath();c.moveTo(a.x,a.y);c.lineTo(mx,my);c.stroke()}
-        c.fillStyle=md<150?'#fff':'rgba(140,175,255,.8)';c.beginPath();c.arc(a.x,a.y,md<150?3:2.2,0,6.283);c.fill();
-      }
-    }
-    function frame(t){if(!run)return;draw(t);requestAnimationFrame(frame)}
-    function size(){var r=cv.getBoundingClientRect();if(!r.width||!r.height)return;W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;c.setTransform(dpr,0,0,dpr,0,0);layout()}
-    host.addEventListener('pointermove',function(e){var r=cv.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;if(RM)draw(0)});
-    host.addEventListener('pointerleave',function(){mx=my=-999;if(RM)draw(0)});
-    if('ResizeObserver' in window)new ResizeObserver(size).observe(host);else addEventListener('resize',size);
-    size();
-    if(!RM){if('IntersectionObserver' in window)new IntersectionObserver(function(en){var v=en[0].isIntersecting;if(v&&!run){run=true;requestAnimationFrame(frame)}else if(!v)run=false}).observe(host);else{run=true;requestAnimationFrame(frame)}}
-    return{set:function(m){mode=m;layout()}};
-  }
-  var pd=Dots(d.getElementById('pc'),d.querySelector('.panel'),innerWidth<600?36:52),steps=d.querySelectorAll('.step'),cap=d.getElementById('pcap'),pn=d.getElementById('pnum'),box=d.querySelector('.steps'),cur=0;
-  function go(i){cur=i;steps.forEach(function(x,k){x.setAttribute('aria-pressed',k===i?'true':'false')});pd.set(i);cap.textContent=steps[i].dataset.c;pn.textContent='0'+(i+1);pn.classList.remove('pop');void pn.offsetWidth;pn.classList.add('pop')}
-  steps.forEach(function(b,i){b.addEventListener('click',function(){go(i)})});
-  box.addEventListener('animationend',function(e){if(e.animationName==='fill')go((cur+1)%steps.length)});
-  if(!RM&&'IntersectionObserver' in window)new IntersectionObserver(function(en){box.classList.toggle('playing',en[0].isIntersecting)},{threshold:.35}).observe(d.querySelector('.lab'));
+
 })();
 </script>
 </body>
