@@ -102,15 +102,6 @@ h2.t{margin:8px auto 14px;text-align:center;font:400 clamp(30px,5vw,60px)/1.1 va
 .cap p{margin:0 0 12px;color:var(--mute);font-size:14.5px}
 .role{font-size:12.5px;color:#fff;opacity:.85}
 
-.experience{padding-top:72px}
-.experience-card{max-width:900px;margin:0 auto;border:1px solid var(--line);border-radius:20px;background:var(--panel);padding:28px}
-.experience-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
-.experience-card h3{margin:0;font:500 25px/1.25 var(--sans)}
-.experience-role{margin:6px 0 0;color:var(--blue-l);font-size:14px}
-.experience-date{color:var(--mute);font-size:13px}
-.experience-card ul{margin:22px 0 0;padding-left:20px;color:#d5dcf6}
-.experience-card li{padding:0 0 10px 4px}
-.experience-card li:last-child{padding-bottom:0}
 .lab{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:stretch}
 .steps{display:grid;align-content:start}
 .step{position:relative;background:none;border:0;border-top:1px solid var(--line);font:inherit;color:inherit;text-align:left;cursor:pointer;padding:20px 0 22px}
@@ -149,7 +140,7 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
 
 @media(max-width:820px){
   .feats{grid-template-columns:1fr;padding:48px 0}.feat{padding:22px 0}.feat+.feat{border-left:0;border-top:1px solid var(--line)}
-  .grid,.lab,.about{grid-template-columns:1fr}.wide .art{aspect-ratio:16/10}.panel{min-height:280px}.experience-card{padding:22px}.experience-heading{display:block}.experience-date{display:block;margin-top:10px}
+  .grid,.lab,.about{grid-template-columns:1fr}.wide .art{aspect-ratio:16/10}.panel{min-height:280px}
   .neon{width:30%}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.js .rv{opacity:1;transform:none}}
@@ -183,12 +174,12 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
 <div class="prog" aria-hidden="true"></div>
 <header class="nav"><div class="w">
   <nav class="bar" aria-label="Main">
-    <ul class="l"><li><a href="#top">Home</a></li><li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li></ul>
+    <ul class="l"><li><a href="#top">Home</a></li><li><a href="#work">Work</a></li></ul>
     <a class="logo" href="#top"><i></i>STAN.</a>
     <ul class="r"><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li><li><a class="pill small" href="#contact">Let’s talk <b>→</b></a></li></ul>
     <button class="menu" type="button" id="menu" aria-expanded="false" aria-controls="drop">Menu</button>
   </nav>
-  <div class="drop" id="drop"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a><a class="pill" href="#contact">Let’s talk <b>→</b></a></div>
+  <div class="drop" id="drop"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a class="pill" href="#contact">Let’s talk <b>→</b></a></div>
 </div></header>
 
 <main>
@@ -202,24 +193,7 @@ footer{margin-top:80px;padding:26px 0 34px;border-top:1px solid var(--line);disp
     <svg class="neon r" viewBox="0 0 200 140" aria-hidden="true"><path d="M10 70 L150 100M40 20 L120 90M80 5 L130 75M20 110 L120 60"/></svg>
     <div class="blob" id="blob" role="img" aria-label="Portrait of Stanslous Nhau"><div class="in">SN<img src="assets/stan-portrait.png" alt="" onerror="this.remove()"></div></div>
   </div>
-  <section class="experience" id="experience">
-    <div class="eyebrow rv">Experience</div>
-    <h2 class="t rv">Building research capability and shaping better experiences</h2>
-    <div class="experience-card rv">
-      <div class="experience-heading">
-        <div>
-          <h3>UluntuXD</h3>
-          <p class="experience-role">Design Strategist Intern · UX Research Facilitator</p>
-        </div>
-        <span class="experience-date">September 2026 – November 2026</span>
-      </div>
-      <ul>
-        <li>Contributed to design strategy, applying research and systems thinking to understand people, services and wider organisational challenges.</li>
-        <li>Facilitated UX research learning for postgraduate Psychology and Behavioural Science students, supporting their understanding and practical application of research methods.</li>
-        <li>Used AI-assisted outreach to identify and develop potential partnership and sponsorship leads.</li>
-      </ul>
-    </div>
-  </section>
+  
 </div>
 
 <section id="work"><div class="w">
